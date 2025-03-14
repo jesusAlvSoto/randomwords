@@ -22,6 +22,11 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "acto",
+        "categoria": "elementos_teatro",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "actor",
         "categoria": "profesiones",
         "dificultad": "facil"
@@ -82,6 +87,11 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "alud",
+        "categoria": "fenomenos_naturales",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "ancla",
         "categoria": "mar",
         "dificultad": "facil"
@@ -99,6 +109,11 @@
       {
         "palabra": "araña",
         "categoria": "insectos",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "arco",
+        "categoria": "elementos_arquitectonicos",
         "dificultad": "facil"
       },
       {
@@ -212,6 +227,16 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "base",
+        "categoria": "elementos_quimicos_compuestos",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "bata",
+        "categoria": "elementos_moda",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "batman",
         "categoria": "películas",
         "dificultad": "facil"
@@ -307,6 +332,16 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "boro",
+        "categoria": "elementos_quimicos",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "boss",
+        "categoria": "videojuegos",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "bostezar",
         "categoria": "acciones",
         "dificultad": "facil"
@@ -349,6 +384,11 @@
       {
         "palabra": "cable",
         "categoria": "tecnología",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "cabo",
+        "categoria": "elementos_geografia",
         "dificultad": "facil"
       },
       {
@@ -407,6 +447,16 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "caos",
+        "categoria": "conceptos_filosoficos",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "capa",
+        "categoria": "elementos_moda",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "cara",
         "categoria": "cuerpo",
         "dificultad": "facil"
@@ -437,8 +487,18 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "ceja",
+        "categoria": "partes_cuerpo",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "cejas",
         "categoria": "cuerpo",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "cero",
+        "categoria": "numeros",
         "dificultad": "facil"
       },
       {
@@ -497,6 +557,11 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "cita",
+        "categoria": "elementos_literatura",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "claro",
         "categoria": "adjetivos",
         "dificultad": "facil"
@@ -509,6 +574,11 @@
       {
         "palabra": "clavo",
         "categoria": "herramientas",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "clip",
+        "categoria": "arte_digital",
         "dificultad": "facil"
       },
       {
@@ -542,6 +612,11 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "coder",
+        "categoria": "profesiones_tech",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "codo",
         "categoria": "cuerpo",
         "dificultad": "facil"
@@ -564,6 +639,11 @@
       {
         "palabra": "conga",
         "categoria": "instrumentos",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "cono",
+        "categoria": "conceptos_matematicos",
         "dificultad": "facil"
       },
       {
@@ -597,6 +677,11 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "cubo",
+        "categoria": "conceptos_matematicos",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "cuchara",
         "categoria": "objetos",
         "dificultad": "facil"
@@ -614,6 +699,11 @@
       {
         "palabra": "culpa",
         "categoria": "emociones",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "cura",
+        "categoria": "elementos_medicina",
         "dificultad": "facil"
       },
       {
@@ -669,6 +759,11 @@
       {
         "palabra": "decir",
         "categoria": "verbos",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "dedo",
+        "categoria": "partes_cuerpo",
         "dificultad": "facil"
       },
       {
@@ -747,6 +842,11 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "duda",
+        "categoria": "conceptos_filosoficos",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "dueto",
         "categoria": "baile",
         "dificultad": "facil"
@@ -762,6 +862,11 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "duna",
+        "categoria": "elementos_playa",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "dune",
         "categoria": "películas",
         "dificultad": "facil"
@@ -769,6 +874,11 @@
       {
         "palabra": "duro",
         "categoria": "adjetivos",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "ego",
+        "categoria": "conceptos_filosoficos",
         "dificultad": "facil"
       },
       {
@@ -1012,6 +1122,11 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "gif",
+        "categoria": "arte_digital",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "gimnasio",
         "categoria": "lugares",
         "dificultad": "facil"
@@ -1034,6 +1149,11 @@
       {
         "palabra": "gmail",
         "categoria": "redes",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "gol",
+        "categoria": "elementos_deporte",
         "dificultad": "facil"
       },
       {
@@ -1064,6 +1184,11 @@
       {
         "palabra": "grifo",
         "categoria": "mitología",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "grill",
+        "categoria": "cocina_moderna",
         "dificultad": "facil"
       },
       {
@@ -1099,6 +1224,11 @@
       {
         "palabra": "hades",
         "categoria": "mitología",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "halo",
+        "categoria": "fenomenos_opticos",
         "dificultad": "facil"
       },
       {
@@ -1252,6 +1382,11 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "jefe",
+        "categoria": "oficina_moderna",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "jenga",
         "categoria": "juegos",
         "dificultad": "facil"
@@ -1259,6 +1394,11 @@
       {
         "palabra": "joven",
         "categoria": "familia",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "joya",
+        "categoria": "elementos_moda",
         "dificultad": "facil"
       },
       {
@@ -1337,6 +1477,11 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "lazo",
+        "categoria": "elementos_moda",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "leche",
         "categoria": "comida",
         "dificultad": "facil"
@@ -1392,6 +1537,11 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "lira",
+        "categoria": "instrumentos",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "lirio",
         "categoria": "plantas",
         "dificultad": "facil"
@@ -1412,8 +1562,18 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "logo",
+        "categoria": "arte_digital",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "loki",
         "categoria": "mitología",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "loro",
+        "categoria": "animales",
         "dificultad": "facil"
       },
       {
@@ -1429,6 +1589,11 @@
       {
         "palabra": "lunes",
         "categoria": "tiempo",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "lupa",
+        "categoria": "instrumentos_cientificos",
         "dificultad": "facil"
       },
       {
@@ -1529,6 +1694,11 @@
       {
         "palabra": "meme",
         "categoria": "redes",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "memo",
+        "categoria": "oficina_moderna",
         "dificultad": "facil"
       },
       {
@@ -1687,6 +1857,11 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "neón",
+        "categoria": "elementos_quimicos",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "nieta",
         "categoria": "familia",
         "dificultad": "facil"
@@ -1737,6 +1912,11 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "nova",
+        "categoria": "astronomia",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "nube",
         "categoria": "naturaleza",
         "dificultad": "facil"
@@ -1764,6 +1944,11 @@
       {
         "palabra": "oboe",
         "categoria": "música",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "obra",
+        "categoria": "elementos_arte",
         "dificultad": "facil"
       },
       {
@@ -1937,6 +2122,11 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "paté",
+        "categoria": "comida_internacional",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "pavo",
         "categoria": "animales",
         "dificultad": "facil"
@@ -1977,6 +2167,11 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "pena",
+        "categoria": "emociones",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "perla",
         "categoria": "mar",
         "dificultad": "facil"
@@ -1994,6 +2189,16 @@
       {
         "palabra": "piano",
         "categoria": "música",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "pico",
+        "categoria": "herramientas_jardineria",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "piel",
+        "categoria": "partes_cuerpo",
         "dificultad": "facil"
       },
       {
@@ -2177,6 +2382,16 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "raid",
+        "categoria": "videojuegos",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "rama",
+        "categoria": "elementos_jardin",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "ramo",
         "categoria": "flores",
         "dificultad": "facil"
@@ -2247,8 +2462,18 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "rima",
+        "categoria": "elementos_literatura",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "rio",
         "categoria": "películas",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "risa",
+        "categoria": "expresiones_corporales",
         "dificultad": "facil"
       },
       {
@@ -2274,6 +2499,11 @@
       {
         "palabra": "roble",
         "categoria": "plantas",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "roca",
+        "categoria": "elementos_playa",
         "dificultad": "facil"
       },
       {
@@ -2342,8 +2572,23 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "saco",
+        "categoria": "elementos_moda",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "sake",
         "categoria": "bebidas",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "sal",
+        "categoria": "elementos_playa",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "sala",
+        "categoria": "elementos_hogar",
         "dificultad": "facil"
       },
       {
@@ -2417,6 +2662,11 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "seto",
+        "categoria": "elementos_jardin",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "seul",
         "categoria": "ciudades",
         "dificultad": "facil"
@@ -2484,6 +2734,11 @@
       {
         "palabra": "sofa",
         "categoria": "muebles",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "sofá",
+        "categoria": "elementos_casa",
         "dificultad": "facil"
       },
       {
@@ -2652,6 +2907,11 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "team",
+        "categoria": "oficina_moderna",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "techo",
         "categoria": "casa",
         "dificultad": "facil"
@@ -2659,6 +2919,11 @@
       {
         "palabra": "teclado",
         "categoria": "tecnología",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "teja",
+        "categoria": "materiales_construccion",
         "dificultad": "facil"
       },
       {
@@ -2747,6 +3012,11 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "tono",
+        "categoria": "elementos_musica",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "torno",
         "categoria": "herramientas",
         "dificultad": "facil"
@@ -2807,13 +3077,33 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "tubo",
+        "categoria": "instrumentos_cientificos",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "twain",
         "categoria": "celebridades",
         "dificultad": "facil"
       },
       {
+        "palabra": "tweet",
+        "categoria": "redes_sociales",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "tyson",
         "categoria": "deportistas",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "tía",
+        "categoria": "familia",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "tío",
+        "categoria": "familia",
         "dificultad": "facil"
       },
       {
@@ -2837,8 +3127,23 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "uña",
+        "categoria": "partes_cuerpo",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "uñas",
         "categoria": "cuerpo",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "vaca",
+        "categoria": "animales",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "valle",
+        "categoria": "naturaleza_especifica",
         "dificultad": "facil"
       },
       {
@@ -2849,6 +3154,11 @@
       {
         "palabra": "vaso",
         "categoria": "objetos",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "vena",
+        "categoria": "partes_cuerpo",
         "dificultad": "facil"
       },
       {
@@ -2942,6 +3252,11 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "web",
+        "categoria": "elementos_tecnologia",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "webcam",
         "categoria": "tecnología",
         "dificultad": "facil"
@@ -2952,6 +3267,11 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "wok",
+        "categoria": "cocina_moderna",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "woods",
         "categoria": "deportistas",
         "dificultad": "facil"
@@ -2959,6 +3279,11 @@
       {
         "palabra": "xavi",
         "categoria": "deportistas",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "xbox",
+        "categoria": "videojuegos",
         "dificultad": "facil"
       },
       {
@@ -2992,6 +3317,16 @@
         "dificultad": "facil"
       },
       {
+        "palabra": "zinc",
+        "categoria": "elementos_quimicos",
+        "dificultad": "facil"
+      },
+      {
+        "palabra": "zoo",
+        "categoria": "elementos_ciudad",
+        "dificultad": "facil"
+      },
+      {
         "palabra": "zoom",
         "categoria": "redes",
         "dificultad": "facil"
@@ -3011,6 +3346,16 @@
       {
         "palabra": "abogado",
         "categoria": "profesiones",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "abono",
+        "categoria": "herramientas_jardineria",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "abrazo",
+        "categoria": "expresiones_corporales",
         "dificultad": "medio"
       },
       {
@@ -3039,6 +3384,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "acera",
+        "categoria": "elementos_urbanos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "acorde",
         "categoria": "música",
         "dificultad": "medio"
@@ -3054,6 +3404,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "activo",
+        "categoria": "elementos_economia",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "acuarela",
         "categoria": "arte",
         "dificultad": "medio"
@@ -3061,6 +3416,16 @@
       {
         "palabra": "acuario",
         "categoria": "lugares",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "adobe",
+        "categoria": "materiales_construccion",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "adobo",
+        "categoria": "elementos_cocina",
         "dificultad": "medio"
       },
       {
@@ -3099,6 +3464,16 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "agudo",
+        "categoria": "elementos_musica",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "aguja",
+        "categoria": "instrumentos_medicos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "agujero",
         "categoria": "universo",
         "dificultad": "medio"
@@ -3116,6 +3491,11 @@
       {
         "palabra": "ahorcado",
         "categoria": "juegos",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "ahorro",
+        "categoria": "elementos_economia",
         "dificultad": "medio"
       },
       {
@@ -3154,6 +3534,16 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "alergia",
+        "categoria": "medicina_moderna",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "alero",
+        "categoria": "elementos_arquitectonicos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "alfombra",
         "categoria": "muebles",
         "dificultad": "medio"
@@ -3171,6 +3561,11 @@
       {
         "palabra": "alien",
         "categoria": "películas",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "aliño",
+        "categoria": "elementos_cocina",
         "dificultad": "medio"
       },
       {
@@ -3216,6 +3611,16 @@
       {
         "palabra": "andamio",
         "categoria": "herramientas",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "android",
+        "categoria": "ciencia_moderna",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "andén",
+        "categoria": "elementos_urbanos",
         "dificultad": "medio"
       },
       {
@@ -3269,6 +3674,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "arcade",
+        "categoria": "videojuegos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "archivo",
         "categoria": "oficina",
         "dificultad": "medio"
@@ -3316,6 +3726,11 @@
       {
         "palabra": "arquitecto",
         "categoria": "profesiones",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "arroyo",
+        "categoria": "elementos_naturaleza",
         "dificultad": "medio"
       },
       {
@@ -3389,6 +3804,16 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "avión",
+        "categoria": "elementos_transporte",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "azada",
+        "categoria": "herramientas_jardineria",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "azahar",
         "categoria": "flores",
         "dificultad": "medio"
@@ -3401,6 +3826,11 @@
       {
         "palabra": "azucena",
         "categoria": "flores",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "azufre",
+        "categoria": "elementos_quimicos",
         "dificultad": "medio"
       },
       {
@@ -3419,6 +3849,16 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "backup",
+        "categoria": "herramientas_digitales",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "bahía",
+        "categoria": "elementos_geografia",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "bailarín",
         "categoria": "profesiones",
         "dificultad": "medio"
@@ -3434,6 +3874,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "balcón",
+        "categoria": "elementos_arquitectonicos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "ballena",
         "categoria": "animales",
         "dificultad": "medio"
@@ -3441,6 +3886,16 @@
       {
         "palabra": "ballet",
         "categoria": "arte",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "bambú",
+        "categoria": "naturaleza_especifica",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "banca",
+        "categoria": "elementos_economia",
         "dificultad": "medio"
       },
       {
@@ -3524,6 +3979,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "bemol",
+        "categoria": "elementos_musica",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "berlin",
         "categoria": "ciudades",
         "dificultad": "medio"
@@ -3564,13 +4024,33 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "biopsia",
+        "categoria": "medicina_moderna",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "bitmap",
+        "categoria": "arte_digital",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "blanco",
         "categoria": "colores",
         "dificultad": "medio"
       },
       {
+        "palabra": "blazer",
+        "categoria": "moda",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "bluetooth",
         "categoria": "tecnología",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "boceto",
+        "categoria": "elementos_arte",
         "dificultad": "medio"
       },
       {
@@ -3639,6 +4119,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "brillo",
+        "categoria": "fenomenos_opticos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "brocha",
         "categoria": "herramientas",
         "dificultad": "medio"
@@ -3649,8 +4134,18 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "bromo",
+        "categoria": "elementos_quimicos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "bronce",
         "categoria": "colores",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "browser",
+        "categoria": "herramientas_digitales",
         "dificultad": "medio"
       },
       {
@@ -3674,6 +4169,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "bungee",
+        "categoria": "deportes_extremos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "buscar",
         "categoria": "verbos",
         "dificultad": "medio"
@@ -3681,6 +4181,16 @@
       {
         "palabra": "butaca",
         "categoria": "muebles",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "butano",
+        "categoria": "elementos_quimicos_compuestos",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "bypass",
+        "categoria": "medicina_moderna",
         "dificultad": "medio"
       },
       {
@@ -3706,6 +4216,11 @@
       {
         "palabra": "cacerola",
         "categoria": "cocina",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "cache",
+        "categoria": "herramientas_digitales",
         "dificultad": "medio"
       },
       {
@@ -3739,8 +4254,23 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "calcio",
+        "categoria": "elementos_quimicos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "caliente",
         "categoria": "adjetivos",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "calima",
+        "categoria": "elementos_clima",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "calle",
+        "categoria": "elementos_ciudad",
         "dificultad": "medio"
       },
       {
@@ -3774,6 +4304,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "campo",
+        "categoria": "naturaleza",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "canada",
         "categoria": "países",
         "dificultad": "medio"
@@ -3789,6 +4324,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "canopy",
+        "categoria": "deportes_extremos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "capitan",
         "categoria": "mar",
         "dificultad": "medio"
@@ -3801,6 +4341,11 @@
       {
         "palabra": "caracol",
         "categoria": "insectos",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "carisma",
+        "categoria": "emociones_complejas",
         "dificultad": "medio"
       },
       {
@@ -3859,6 +4404,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "casual",
+        "categoria": "moda",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "catedral",
         "categoria": "lugares",
         "dificultad": "medio"
@@ -3906,6 +4456,11 @@
       {
         "palabra": "ceramica",
         "categoria": "materiales",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "cerdo",
+        "categoria": "animales",
         "dificultad": "medio"
       },
       {
@@ -3959,6 +4514,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "chatbot",
+        "categoria": "ciencia_moderna",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "chicago",
         "categoria": "ciudades",
         "dificultad": "medio"
@@ -3994,6 +4554,16 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "ciclón",
+        "categoria": "fenomenos_naturales",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "cielo",
+        "categoria": "naturaleza",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "ciempies",
         "categoria": "insectos",
         "dificultad": "medio"
@@ -4001,6 +4571,11 @@
       {
         "palabra": "ciencias",
         "categoria": "escuela",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "ciervo",
+        "categoria": "animales",
         "dificultad": "medio"
       },
       {
@@ -4049,8 +4624,23 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "clima",
+        "categoria": "elementos_clima",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "clinica",
         "categoria": "medicina",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "cloro",
+        "categoria": "elementos_quimicos",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "clímax",
+        "categoria": "elementos_literatura",
         "dificultad": "medio"
       },
       {
@@ -4109,6 +4699,16 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "color",
+        "categoria": "fenomenos_opticos",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "combo",
+        "categoria": "videojuegos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "comedor",
         "categoria": "casa",
         "dificultad": "medio"
@@ -4131,6 +4731,11 @@
       {
         "palabra": "competir",
         "categoria": "acciones",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "compost",
+        "categoria": "ecologia",
         "dificultad": "medio"
       },
       {
@@ -4184,6 +4789,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "cookie",
+        "categoria": "herramientas_digitales",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "coral",
         "categoria": "naturaleza",
         "dificultad": "medio"
@@ -4219,6 +4829,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "costa",
+        "categoria": "naturaleza",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "credenza",
         "categoria": "muebles",
         "dificultad": "medio"
@@ -4244,8 +4859,18 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "cráneo",
+        "categoria": "partes_cuerpo",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "cuaderno",
         "categoria": "oficina",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "cuadro",
+        "categoria": "elementos_casa",
         "dificultad": "medio"
       },
       {
@@ -4274,6 +4899,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "cuento",
+        "categoria": "generos_literarios",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "cumbia",
         "categoria": "baile",
         "dificultad": "medio"
@@ -4296,6 +4926,11 @@
       {
         "palabra": "cámara",
         "categoria": "tecnología",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "césped",
+        "categoria": "elementos_jardin",
         "dificultad": "medio"
       },
       {
@@ -4344,8 +4979,18 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "delta",
+        "categoria": "naturaleza_especifica",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "demeter",
         "categoria": "mitología",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "denim",
+        "categoria": "moda",
         "dificultad": "medio"
       },
       {
@@ -4424,6 +5069,16 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "diluvio",
+        "categoria": "fenomenos_naturales",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "dintel",
+        "categoria": "elementos_arquitectonicos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "dionisio",
         "categoria": "mitología",
         "dificultad": "medio"
@@ -4444,6 +5099,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "divisa",
+        "categoria": "elementos_economia",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "division",
         "categoria": "números",
         "dificultad": "medio"
@@ -4459,8 +5119,18 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "dolor",
+        "categoria": "emociones",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "domingo",
         "categoria": "tiempo",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "dominio",
+        "categoria": "herramientas_digitales",
         "dificultad": "medio"
       },
       {
@@ -4484,6 +5154,16 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "dragón",
+        "categoria": "mitologia",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "drama",
+        "categoria": "generos_literarios",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "dron",
         "categoria": "tecnología",
         "dificultad": "medio"
@@ -4496,6 +5176,11 @@
       {
         "palabra": "dulzaina",
         "categoria": "instrumentos",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "dunas",
+        "categoria": "naturaleza_especifica",
         "dificultad": "medio"
       },
       {
@@ -4539,8 +5224,18 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "emoji",
+        "categoria": "redes_sociales",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "empanada",
         "categoria": "comida",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "empate",
+        "categoria": "elementos_deporte",
         "dificultad": "medio"
       },
       {
@@ -4584,6 +5279,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "ensayo",
+        "categoria": "generos_literarios",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "entrada",
         "categoria": "casa",
         "dificultad": "medio"
@@ -4591,6 +5291,21 @@
       {
         "palabra": "entrenar",
         "categoria": "acciones",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "equipo",
+        "categoria": "elementos_deporte",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "erosión",
+        "categoria": "fenomenos_naturales",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "esbozo",
+        "categoria": "elementos_arte",
         "dificultad": "medio"
       },
       {
@@ -4611,6 +5326,11 @@
       {
         "palabra": "escarcha",
         "categoria": "clima",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "escena",
+        "categoria": "elementos_teatro",
         "dificultad": "medio"
       },
       {
@@ -4704,6 +5424,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "estilo",
+        "categoria": "elementos_arte",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "estomago",
         "categoria": "cuerpo",
         "dificultad": "medio"
@@ -4711,6 +5436,11 @@
       {
         "palabra": "estudio",
         "categoria": "casa",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "etanol",
+        "categoria": "elementos_quimicos_compuestos",
         "dificultad": "medio"
       },
       {
@@ -4729,6 +5459,16 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "falafel",
+        "categoria": "comida_internacional",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "falta",
+        "categoria": "elementos_deporte",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "familia",
         "categoria": "familia",
         "dificultad": "medio"
@@ -4744,6 +5484,16 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "fashion",
+        "categoria": "moda",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "fauna",
+        "categoria": "ecologia",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "febrero",
         "categoria": "tiempo",
         "dificultad": "medio"
@@ -4751,6 +5501,11 @@
       {
         "palabra": "federer",
         "categoria": "deportistas",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "fenol",
+        "categoria": "elementos_quimicos_compuestos",
         "dificultad": "medio"
       },
       {
@@ -4769,8 +5524,33 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "ficción",
+        "categoria": "generos_literarios",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "fiebre",
+        "categoria": "elementos_medicina",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "fiesta",
         "categoria": "festividades",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "filtro",
+        "categoria": "arte_digital",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "fiordo",
+        "categoria": "elementos_geografia",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "fjordo",
+        "categoria": "naturaleza_especifica",
         "dificultad": "medio"
       },
       {
@@ -4779,8 +5559,28 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "flora",
+        "categoria": "ecologia",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "flúor",
+        "categoria": "elementos_quimicos",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "fobia",
+        "categoria": "elementos_psicologia",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "folclore",
         "categoria": "baile",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "forma",
+        "categoria": "elementos_arte",
         "dificultad": "medio"
       },
       {
@@ -4799,6 +5599,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "frase",
+        "categoria": "elementos_literatura",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "freidora",
         "categoria": "cocina",
         "dificultad": "medio"
@@ -4809,8 +5614,28 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "frontón",
+        "categoria": "elementos_arquitectonicos",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "frío",
+        "categoria": "elementos_tiempo",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "fucsia",
         "categoria": "colores",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "fuego",
+        "categoria": "naturaleza",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "fuente",
+        "categoria": "elementos_urbanos",
         "dificultad": "medio"
       },
       {
@@ -4839,6 +5664,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "fénix",
+        "categoria": "mitologia",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "física",
         "categoria": "ciencia",
         "dificultad": "medio"
@@ -4846,6 +5676,11 @@
       {
         "palabra": "galleta",
         "categoria": "comida",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "gamer",
+        "categoria": "profesiones_tech",
         "dificultad": "medio"
       },
       {
@@ -4879,6 +5714,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "gasas",
+        "categoria": "instrumentos_medicos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "gatorade",
         "categoria": "bebidas",
         "dificultad": "medio"
@@ -4894,8 +5734,18 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "geiser",
+        "categoria": "naturaleza_especifica",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "gemelo",
         "categoria": "familia",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "genoma",
+        "categoria": "ciencia_moderna",
         "dificultad": "medio"
       },
       {
@@ -4934,6 +5784,16 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "glamour",
+        "categoria": "moda",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "gnocchi",
+        "categoria": "comida_internacional",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "godzilla",
         "categoria": "películas",
         "dificultad": "medio"
@@ -4941,6 +5801,11 @@
       {
         "palabra": "golf",
         "categoria": "deportes",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "golfo",
+        "categoria": "elementos_geografia",
         "dificultad": "medio"
       },
       {
@@ -4956,6 +5821,11 @@
       {
         "palabra": "gondola",
         "categoria": "transporte",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "gorgona",
+        "categoria": "mitologia",
         "dificultad": "medio"
       },
       {
@@ -5004,6 +5874,16 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "grava",
+        "categoria": "materiales_construccion",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "grave",
+        "categoria": "elementos_musica",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "gravity",
         "categoria": "películas",
         "dificultad": "medio"
@@ -5034,6 +5914,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "guante",
+        "categoria": "elementos_moda",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "guantes",
         "categoria": "ropa",
         "dificultad": "medio"
@@ -5044,6 +5929,21 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "guiso",
+        "categoria": "elementos_cocina",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "guiño",
+        "categoria": "expresiones_corporales",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "guión",
+        "categoria": "elementos_teatro",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "gusano",
         "categoria": "insectos",
         "dificultad": "medio"
@@ -5051,6 +5951,11 @@
       {
         "palabra": "hablar",
         "categoria": "verbos",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "hacker",
+        "categoria": "profesiones_tech",
         "dificultad": "medio"
       },
       {
@@ -5069,6 +5974,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "hangar",
+        "categoria": "elementos_transporte",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "hanukkah",
         "categoria": "festividades",
         "dificultad": "medio"
@@ -5084,8 +5994,23 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "helada",
+        "categoria": "elementos_clima",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "helecho",
         "categoria": "plantas",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "helio",
+        "categoria": "elementos_quimicos",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "herida",
+        "categoria": "elementos_medicina",
         "dificultad": "medio"
       },
       {
@@ -5134,6 +6059,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "hip hop",
+        "categoria": "bailes_modernos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "hiphop",
         "categoria": "baile",
         "dificultad": "medio"
@@ -5164,6 +6094,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "hombro",
+        "categoria": "partes_cuerpo",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "hombros",
         "categoria": "cuerpo",
         "dificultad": "medio"
@@ -5184,13 +6119,43 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "hormona",
+        "categoria": "medicina_moderna",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "horror",
+        "categoria": "generos_literarios",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "hosting",
+        "categoria": "herramientas_digitales",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "hotmail",
         "categoria": "redes",
         "dificultad": "medio"
       },
       {
+        "palabra": "huerto",
+        "categoria": "elementos_jardin",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "humedad",
         "categoria": "clima",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "humedal",
+        "categoria": "naturaleza_especifica",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "hummus",
+        "categoria": "comida_internacional",
         "dificultad": "medio"
       },
       {
@@ -5209,8 +6174,18 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "ideal",
+        "categoria": "conceptos_filosoficos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "iglesia",
         "categoria": "lugares",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "inbox",
+        "categoria": "oficina_moderna",
         "dificultad": "medio"
       },
       {
@@ -5249,8 +6224,18 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "istmo",
+        "categoria": "elementos_geografia",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "italia",
         "categoria": "países",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "jabón",
+        "categoria": "objetos_comunes",
         "dificultad": "medio"
       },
       {
@@ -5299,6 +6284,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "jersey",
+        "categoria": "moda",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "jirafa",
         "categoria": "animales",
         "dificultad": "medio"
@@ -5329,6 +6319,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "jugada",
+        "categoria": "elementos_deporte",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "jupiter",
         "categoria": "universo",
         "dificultad": "medio"
@@ -5339,13 +6334,33 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "kalimba",
+        "categoria": "instrumentos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "karate",
         "categoria": "deportes",
         "dificultad": "medio"
       },
       {
+        "palabra": "kebab",
+        "categoria": "comida_internacional",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "kennedy",
         "categoria": "celebridades",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "kiosco",
+        "categoria": "elementos_urbanos",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "kizomba",
+        "categoria": "bailes_modernos",
         "dificultad": "medio"
       },
       {
@@ -5389,6 +6404,16 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "lasagna",
+        "categoria": "comida_internacional",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "lavabo",
+        "categoria": "elementos_casa",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "lavadero",
         "categoria": "casa",
         "dificultad": "medio"
@@ -5419,6 +6444,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "leggins",
+        "categoria": "moda",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "legolas",
         "categoria": "personajes",
         "dificultad": "medio"
@@ -5434,6 +6464,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "lesión",
+        "categoria": "elementos_deporte",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "libelula",
         "categoria": "insectos",
         "dificultad": "medio"
@@ -5441,6 +6476,11 @@
       {
         "palabra": "libreta",
         "categoria": "oficina",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "lienzo",
+        "categoria": "elementos_arte",
         "dificultad": "medio"
       },
       {
@@ -5464,6 +6504,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "litio",
+        "categoria": "elementos_quimicos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "llevar",
         "categoria": "verbos",
         "dificultad": "medio"
@@ -5481,6 +6526,21 @@
       {
         "palabra": "londres",
         "categoria": "ciudades",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "lustro",
+        "categoria": "elementos_tiempo",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "láser",
+        "categoria": "ciencia_moderna",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "línea",
+        "categoria": "conceptos_matematicos",
         "dificultad": "medio"
       },
       {
@@ -5539,13 +6599,33 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "malla",
+        "categoria": "elementos_moda",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "malware",
+        "categoria": "herramientas_digitales",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "mandela",
         "categoria": "celebridades",
         "dificultad": "medio"
       },
       {
+        "palabra": "manglar",
+        "categoria": "naturaleza_especifica",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "manopla",
         "categoria": "cocina",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "manta",
+        "categoria": "elementos_casa",
         "dificultad": "medio"
       },
       {
@@ -5579,6 +6659,16 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "marco",
+        "categoria": "elementos_arte",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "marea",
+        "categoria": "elementos_playa",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "marinero",
         "categoria": "profesiones",
         "dificultad": "medio"
@@ -5590,6 +6680,11 @@
       },
       {
         "palabra": "marron",
+        "categoria": "colores",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "marrón",
         "categoria": "colores",
         "dificultad": "medio"
       },
@@ -5614,8 +6709,18 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "matiz",
+        "categoria": "elementos_arte",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "matrix",
         "categoria": "películas",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "matriz",
+        "categoria": "conceptos_matematicos",
         "dificultad": "medio"
       },
       {
@@ -5669,6 +6774,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "meeting",
+        "categoria": "oficina_moderna",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "mejilla",
         "categoria": "cuerpo",
         "dificultad": "medio"
@@ -5694,6 +6804,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "mentón",
+        "categoria": "partes_cuerpo",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "mercurio",
         "categoria": "universo",
         "dificultad": "medio"
@@ -5704,8 +6819,18 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "meseta",
+        "categoria": "elementos_geografia",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "mesita",
         "categoria": "muebles",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "metano",
+        "categoria": "elementos_quimicos_compuestos",
         "dificultad": "medio"
       },
       {
@@ -5769,6 +6894,21 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "mirage",
+        "categoria": "fenomenos_opticos",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "mixer",
+        "categoria": "cocina_moderna",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "mochi",
+        "categoria": "comida_internacional",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "moderno",
         "categoria": "historia",
         "dificultad": "medio"
@@ -5781,6 +6921,11 @@
       {
         "palabra": "mole",
         "categoria": "comida",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "moneda",
+        "categoria": "objetos_comunes",
         "dificultad": "medio"
       },
       {
@@ -5804,8 +6949,23 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "monte",
+        "categoria": "elementos_geografia",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "monzón",
+        "categoria": "elementos_clima",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "morado",
         "categoria": "colores",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "moral",
+        "categoria": "conceptos_filosoficos",
         "dificultad": "medio"
       },
       {
@@ -5821,6 +6981,21 @@
       {
         "palabra": "mozart",
         "categoria": "celebridades",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "mueble",
+        "categoria": "elementos_casa",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "mueca",
+        "categoria": "expresiones_corporales",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "muelle",
+        "categoria": "elementos_transporte",
         "dificultad": "medio"
       },
       {
@@ -5859,6 +7034,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "mármol",
+        "categoria": "materiales_construccion",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "música",
         "categoria": "arte",
         "dificultad": "medio"
@@ -5866,6 +7046,11 @@
       {
         "palabra": "músico",
         "categoria": "profesiones",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "nanotec",
+        "categoria": "ciencia_moderna",
         "dificultad": "medio"
       },
       {
@@ -5914,8 +7099,23 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "nervio",
+        "categoria": "partes_cuerpo",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "nestea",
         "categoria": "bebidas",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "neurona",
+        "categoria": "medicina_moderna",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "nevada",
+        "categoria": "elementos_clima",
         "dificultad": "medio"
       },
       {
@@ -5954,8 +7154,23 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "novela",
+        "categoria": "generos_literarios",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "noventa",
         "categoria": "números",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "níquel",
+        "categoria": "elementos_quimicos",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "oasis",
+        "categoria": "elementos_geografia",
         "dificultad": "medio"
       },
       {
@@ -5974,6 +7189,16 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "octano",
+        "categoria": "elementos_quimicos_compuestos",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "octava",
+        "categoria": "elementos_musica",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "octubre",
         "categoria": "tiempo",
         "dificultad": "medio"
@@ -5981,6 +7206,11 @@
       {
         "palabra": "océano",
         "categoria": "naturaleza",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "oferta",
+        "categoria": "elementos_economia",
         "dificultad": "medio"
       },
       {
@@ -6024,8 +7254,28 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "outfit",
+        "categoria": "moda",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "outlook",
         "categoria": "redes",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "oveja",
+        "categoria": "animales",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "ozono",
+        "categoria": "ecologia",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "oído",
+        "categoria": "partes_cuerpo",
         "dificultad": "medio"
       },
       {
@@ -6081,6 +7331,11 @@
       {
         "palabra": "papelera",
         "categoria": "oficina",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "parada",
+        "categoria": "elementos_transporte",
         "dificultad": "medio"
       },
       {
@@ -6154,8 +7409,23 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "patín",
+        "categoria": "elementos_transporte",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "peaje",
+        "categoria": "elementos_transporte",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "pegaso",
         "categoria": "mitología",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "peine",
+        "categoria": "objetos_comunes",
         "dificultad": "medio"
       },
       {
@@ -6249,6 +7519,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "picado",
+        "categoria": "elementos_cocina",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "picasso",
         "categoria": "celebridades",
         "dificultad": "medio"
@@ -6274,6 +7549,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "pilar",
+        "categoria": "elementos_arquitectonicos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "piloto",
         "categoria": "profesiones",
         "dificultad": "medio"
@@ -6294,6 +7574,16 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "pinzas",
+        "categoria": "instrumentos_medicos",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "pipeta",
+        "categoria": "instrumentos_cientificos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "pirata",
         "categoria": "mar",
         "dificultad": "medio"
@@ -6309,8 +7599,23 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "pixel",
+        "categoria": "arte_digital",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "pizarra",
         "categoria": "materiales",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "placebo",
+        "categoria": "medicina_moderna",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "placer",
+        "categoria": "emociones",
         "dificultad": "medio"
       },
       {
@@ -6324,8 +7629,18 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "planta",
+        "categoria": "elementos_jardin",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "plastico",
         "categoria": "materiales",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "platea",
+        "categoria": "elementos_teatro",
         "dificultad": "medio"
       },
       {
@@ -6354,8 +7669,28 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "plomo",
+        "categoria": "elementos_quimicos",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "plutón",
+        "categoria": "astronomia",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "pocahontas",
         "categoria": "películas",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "podcast",
+        "categoria": "redes_sociales",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "poema",
+        "categoria": "generos_literarios",
         "dificultad": "medio"
       },
       {
@@ -6384,6 +7719,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "portal",
+        "categoria": "videojuegos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "portugal",
         "categoria": "países",
         "dificultad": "medio"
@@ -6391,6 +7731,11 @@
       {
         "palabra": "poseidon",
         "categoria": "mitología",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "post-it",
+        "categoria": "elementos_oficina",
         "dificultad": "medio"
       },
       {
@@ -6406,6 +7751,11 @@
       {
         "palabra": "pradera",
         "categoria": "naturaleza",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "precio",
+        "categoria": "elementos_economia",
         "dificultad": "medio"
       },
       {
@@ -6434,8 +7784,33 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "prisma",
+        "categoria": "instrumentos_cientificos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "programa",
         "categoria": "tecnología",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "prosa",
+        "categoria": "elementos_literatura",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "psique",
+        "categoria": "elementos_psicologia",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "puente",
+        "categoria": "elementos_ciudad",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "puerto",
+        "categoria": "elementos_transporte",
         "dificultad": "medio"
       },
       {
@@ -6454,13 +7829,28 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "punto",
+        "categoria": "conceptos_matematicos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "purpura",
         "categoria": "colores",
         "dificultad": "medio"
       },
       {
+        "palabra": "puré",
+        "categoria": "elementos_cocina",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "pájaro",
         "categoria": "animales",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "quantum",
+        "categoria": "ciencia_moderna",
         "dificultad": "medio"
       },
       {
@@ -6474,6 +7864,16 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "quest",
+        "categoria": "videojuegos",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "quiche",
+        "categoria": "comida_internacional",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "quimera",
         "categoria": "mitología",
         "dificultad": "medio"
@@ -6484,6 +7884,16 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "quásar",
+        "categoria": "astronomia",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "rabia",
+        "categoria": "emociones",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "radar",
         "categoria": "tecnología",
         "dificultad": "medio"
@@ -6491,6 +7901,11 @@
       {
         "palabra": "rafaga",
         "categoria": "clima",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "rafting",
+        "categoria": "deportes_extremos",
         "dificultad": "medio"
       },
       {
@@ -6509,8 +7924,38 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "ramen",
+        "categoria": "comida_internacional",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "rampa",
+        "categoria": "elementos_transporte",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "ranking",
+        "categoria": "oficina_moderna",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "rapel",
+        "categoria": "deportes_extremos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "rapido",
         "categoria": "adjetivos",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "ratón",
+        "categoria": "animales",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "raíz",
+        "categoria": "elementos_jardin",
         "dificultad": "medio"
       },
       {
@@ -6539,6 +7984,31 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "relato",
+        "categoria": "elementos_literatura",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "render",
+        "categoria": "arte_digital",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "renta",
+        "categoria": "elementos_economia",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "report",
+        "categoria": "oficina_moderna",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "residuo",
+        "categoria": "ecologia",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "respirar",
         "categoria": "acciones",
         "dificultad": "medio"
@@ -6554,13 +8024,28 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "riego",
+        "categoria": "elementos_jardin",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "ritual",
         "categoria": "festividades",
         "dificultad": "medio"
       },
       {
+        "palabra": "riñón",
+        "categoria": "partes_cuerpo",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "robot",
         "categoria": "tecnología",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "rocío",
+        "categoria": "elementos_clima",
         "dificultad": "medio"
       },
       {
@@ -6619,8 +8104,18 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "salud",
+        "categoria": "elementos_medicina",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "salvia",
         "categoria": "plantas",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "salón",
+        "categoria": "elementos_casa",
         "dificultad": "medio"
       },
       {
@@ -6641,6 +8136,11 @@
       {
         "palabra": "sarten",
         "categoria": "cocina",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "sartén",
+        "categoria": "cocina_moderna",
         "dificultad": "medio"
       },
       {
@@ -6671,6 +8171,11 @@
       {
         "palabra": "scanner",
         "categoria": "tecnología",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "score",
+        "categoria": "videojuegos",
         "dificultad": "medio"
       },
       {
@@ -6729,6 +8234,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "sequía",
+        "categoria": "fenomenos_naturales",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "serena",
         "categoria": "deportistas",
         "dificultad": "medio"
@@ -6741,6 +8251,11 @@
       {
         "palabra": "serrucho",
         "categoria": "herramientas",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "server",
+        "categoria": "herramientas_digitales",
         "dificultad": "medio"
       },
       {
@@ -6761,6 +8276,11 @@
       {
         "palabra": "sevilla",
         "categoria": "ciudades",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "señal",
+        "categoria": "elementos_urbanos",
         "dificultad": "medio"
       },
       {
@@ -6794,6 +8314,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "sismo",
+        "categoria": "fenomenos_naturales",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "smoothie",
         "categoria": "bebidas",
         "dificultad": "medio"
@@ -6824,8 +8349,18 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "sodio",
+        "categoria": "elementos_quimicos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "soldador",
         "categoria": "herramientas",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "sombra",
+        "categoria": "fenomenos_opticos",
         "dificultad": "medio"
       },
       {
@@ -6834,8 +8369,18 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "sonar",
+        "categoria": "instrumentos_cientificos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "sonata",
         "categoria": "música",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "sonda",
+        "categoria": "instrumentos_medicos",
         "dificultad": "medio"
       },
       {
@@ -6859,13 +8404,28 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "spawn",
+        "categoria": "videojuegos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "sprite",
         "categoria": "bebidas",
         "dificultad": "medio"
       },
       {
+        "palabra": "startup",
+        "categoria": "oficina_moderna",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "starwars",
         "categoria": "películas",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "sticker",
+        "categoria": "arte_digital",
         "dificultad": "medio"
       },
       {
@@ -6919,6 +8479,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "tacón",
+        "categoria": "elementos_moda",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "tajmahal",
         "categoria": "historia",
         "dificultad": "medio"
@@ -6936,6 +8501,11 @@
       {
         "palabra": "tangled",
         "categoria": "películas",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "target",
+        "categoria": "oficina_moderna",
         "dificultad": "medio"
       },
       {
@@ -6969,8 +8539,28 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "telón",
+        "categoria": "elementos_teatro",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "temblor",
+        "categoria": "fenomenos_naturales",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "temor",
+        "categoria": "emociones",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "templado",
         "categoria": "clima",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "tempura",
+        "categoria": "comida_internacional",
         "dificultad": "medio"
       },
       {
@@ -7009,6 +8599,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "tester",
+        "categoria": "profesiones_tech",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "tetera",
         "categoria": "cocina",
         "dificultad": "medio"
@@ -7019,6 +8614,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "texto",
+        "categoria": "elementos_literatura",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "tiburon",
         "categoria": "mar",
         "dificultad": "medio"
@@ -7026,6 +8626,11 @@
       {
         "palabra": "tiburón",
         "categoria": "animales",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "tienda",
+        "categoria": "elementos_ciudad",
         "dificultad": "medio"
       },
       {
@@ -7054,6 +8659,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "tinta",
+        "categoria": "elementos_oficina",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "tintin",
         "categoria": "personajes",
         "dificultad": "medio"
@@ -7066,6 +8676,16 @@
       {
         "palabra": "titanio",
         "categoria": "materiales",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "titán",
+        "categoria": "mitologia",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "toalla",
+        "categoria": "elementos_playa",
         "dificultad": "medio"
       },
       {
@@ -7149,8 +8769,18 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "trauma",
+        "categoria": "emociones_complejas",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "treinta",
         "categoria": "números",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "trendy",
+        "categoria": "moda",
         "dificultad": "medio"
       },
       {
@@ -7194,6 +8824,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "tronco",
+        "categoria": "elementos_jardin",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "trotar",
         "categoria": "acciones",
         "dificultad": "medio"
@@ -7214,6 +8849,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "tundra",
+        "categoria": "naturaleza_especifica",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "turquesa",
         "categoria": "colores",
         "dificultad": "medio"
@@ -7221,6 +8861,11 @@
       {
         "palabra": "turquia",
         "categoria": "países",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "twist",
+        "categoria": "bailes_modernos",
         "dificultad": "medio"
       },
       {
@@ -7239,6 +8884,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "túnel",
+        "categoria": "elementos_urbanos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "ukelele",
         "categoria": "música",
         "dificultad": "medio"
@@ -7246,6 +8896,11 @@
       {
         "palabra": "ultimo",
         "categoria": "números",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "uranio",
+        "categoria": "elementos_quimicos",
         "dificultad": "medio"
       },
       {
@@ -7269,6 +8924,16 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "vapor",
+        "categoria": "elementos_cocina",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "vector",
+        "categoria": "arte_digital",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "veinte",
         "categoria": "números",
         "dificultad": "medio"
@@ -7286,6 +8951,11 @@
       {
         "palabra": "velorio",
         "categoria": "festividades",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "venda",
+        "categoria": "instrumentos_medicos",
         "dificultad": "medio"
       },
       {
@@ -7321,6 +8991,16 @@
       {
         "palabra": "verdura",
         "categoria": "comida",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "vereda",
+        "categoria": "elementos_urbanos",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "verso",
+        "categoria": "elementos_literatura",
         "dificultad": "medio"
       },
       {
@@ -7364,6 +9044,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "vintage",
+        "categoria": "moda",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "violeta",
         "categoria": "plantas",
         "dificultad": "medio"
@@ -7376,6 +9061,11 @@
       {
         "palabra": "violín",
         "categoria": "música",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "virtud",
+        "categoria": "conceptos_filosoficos",
         "dificultad": "medio"
       },
       {
@@ -7404,6 +9094,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "wasabi",
+        "categoria": "comida_internacional",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "watson",
         "categoria": "personajes",
         "dificultad": "medio"
@@ -7419,6 +9114,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "xenón",
+        "categoria": "elementos_quimicos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "xilofono",
         "categoria": "instrumentos",
         "dificultad": "medio"
@@ -7426,6 +9126,11 @@
       {
         "palabra": "xilófono",
         "categoria": "música",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "yodo",
+        "categoria": "elementos_quimicos",
         "dificultad": "medio"
       },
       {
@@ -7446,6 +9151,11 @@
       {
         "palabra": "zafiro",
         "categoria": "colores",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "zampoña",
+        "categoria": "instrumentos",
         "dificultad": "medio"
       },
       {
@@ -7474,6 +9184,11 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "zipline",
+        "categoria": "deportes_extremos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "zodíaco",
         "categoria": "universo",
         "dificultad": "medio"
@@ -7489,13 +9204,43 @@
         "dificultad": "medio"
       },
       {
+        "palabra": "zumba",
+        "categoria": "bailes_modernos",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "ácido",
+        "categoria": "elementos_quimicos_compuestos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "águila",
         "categoria": "animales",
         "dificultad": "medio"
       },
       {
+        "palabra": "árbol",
+        "categoria": "elementos_jardin",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "área",
+        "categoria": "conceptos_matematicos",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "ética",
+        "categoria": "conceptos_filosoficos",
+        "dificultad": "medio"
+      },
+      {
         "palabra": "órgano",
         "categoria": "música",
+        "dificultad": "medio"
+      },
+      {
+        "palabra": "óxido",
+        "categoria": "elementos_quimicos_compuestos",
         "dificultad": "medio"
       }
     ],
@@ -7506,8 +9251,33 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "abdomen",
+        "categoria": "partes_cuerpo",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "abstracto",
+        "categoria": "elementos_arte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "acantilado",
+        "categoria": "naturaleza_especifica",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "acariciar",
         "categoria": "acciones",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "accesorio",
+        "categoria": "moda",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "acetona",
+        "categoria": "elementos_quimicos_compuestos",
         "dificultad": "dificil"
       },
       {
@@ -7521,6 +9291,16 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "actitud",
+        "categoria": "elementos_psicologia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "actuario",
+        "categoria": "profesiones_especializadas",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "admiración",
         "categoria": "emociones",
         "dificultad": "dificil"
@@ -7528,6 +9308,56 @@
       {
         "palabra": "agricultor",
         "categoria": "profesiones",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "aguacero",
+        "categoria": "elementos_clima",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "agujero negro",
+        "categoria": "elementos_espacio",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "airfryer",
+        "categoria": "cocina_moderna",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "alcantarilla",
+        "categoria": "elementos_urbanos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "alcohol",
+        "categoria": "elementos_quimicos_compuestos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "alegoría",
+        "categoria": "elementos_literatura",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "alergólogo",
+        "categoria": "profesiones_especializadas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "algoritmo",
+        "categoria": "ciencia_moderna",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "alpinismo",
+        "categoria": "deportes_extremos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "alumbrado",
+        "categoria": "elementos_urbanos",
         "dificultad": "dificil"
       },
       {
@@ -7541,6 +9371,11 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "amoniaco",
+        "categoria": "elementos_quimicos_compuestos",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "amor",
         "categoria": "emociones",
         "dificultad": "dificil"
@@ -7551,8 +9386,23 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "analista",
+        "categoria": "profesiones_tech",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "angustia",
         "categoria": "emociones",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "anhídrido",
+        "categoria": "elementos_quimicos_compuestos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "animación",
+        "categoria": "arte_digital",
         "dificultad": "dificil"
       },
       {
@@ -7571,8 +9421,58 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "antibiótico",
+        "categoria": "medicina_moderna",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "anticiclón",
+        "categoria": "elementos_clima",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "antivirus",
+        "categoria": "herramientas_digitales",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "antropólogo",
+        "categoria": "profesiones_especializadas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "análisis",
+        "categoria": "elementos_medicina",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "aplauso",
+        "categoria": "expresiones_corporales",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "aplicación",
         "categoria": "tecnología",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "apuntador",
+        "categoria": "elementos_teatro",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "arbitraje",
+        "categoria": "elementos_deporte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "arbusto",
+        "categoria": "elementos_jardin",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "archipiélago",
+        "categoria": "elementos_geografia",
         "dificultad": "dificil"
       },
       {
@@ -7586,8 +9486,23 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "argumento",
+        "categoria": "elementos_literatura",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "aristoteles",
         "categoria": "celebridades",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "armónica",
+        "categoria": "instrumentos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "arqueólogo",
+        "categoria": "profesiones_especializadas",
         "dificultad": "dificil"
       },
       {
@@ -7598,6 +9513,26 @@
       {
         "palabra": "arrastrar",
         "categoria": "acciones",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "arrecife",
+        "categoria": "naturaleza_especifica",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "artista",
+        "categoria": "profesiones",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "asfalto",
+        "categoria": "materiales_construccion",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "asistencia",
+        "categoria": "elementos_deporte",
         "dificultad": "dificil"
       },
       {
@@ -7616,6 +9551,11 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "astrofísico",
+        "categoria": "profesiones_especializadas",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "astronomía",
         "categoria": "ciencia",
         "dificultad": "dificil"
@@ -7626,8 +9566,18 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "atleta",
+        "categoria": "elementos_deporte",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "atletismo",
         "categoria": "deportes",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "atmósfera",
+        "categoria": "elementos_espacio",
         "dificultad": "dificil"
       },
       {
@@ -7641,8 +9591,43 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "autobús",
+        "categoria": "elementos_transporte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "autoestima",
+        "categoria": "emociones_complejas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "autopista",
+        "categoria": "elementos_transporte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "autovía",
+        "categoria": "elementos_transporte",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "avalancha",
         "categoria": "naturaleza",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "avenida",
+        "categoria": "elementos_urbanos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "aventura",
+        "categoria": "generos_literarios",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "azulejo",
+        "categoria": "materiales_construccion",
         "dificultad": "dificil"
       },
       {
@@ -7656,8 +9641,33 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "baguette",
+        "categoria": "comida_internacional",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "balalaika",
         "categoria": "instrumentos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "balance",
+        "categoria": "elementos_economia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "balanza",
+        "categoria": "instrumentos_cientificos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "baldosa",
+        "categoria": "materiales_construccion",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "bambalina",
+        "categoria": "elementos_teatro",
         "dificultad": "dificil"
       },
       {
@@ -7666,8 +9676,28 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "barómetro",
+        "categoria": "instrumentos_cientificos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "base de datos",
+        "categoria": "elementos_tecnologia",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "basilisco",
         "categoria": "mitología",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "bastidor",
+        "categoria": "elementos_teatro",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "bañador",
+        "categoria": "elementos_playa",
         "dificultad": "dificil"
       },
       {
@@ -7676,8 +9706,33 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "belleza",
+        "categoria": "conceptos_filosoficos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "beneficio",
+        "categoria": "elementos_economia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "berilio",
+        "categoria": "elementos_quimicos",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "bicicleta",
         "categoria": "transporte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "biodiversidad",
+        "categoria": "ecologia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "biografía",
+        "categoria": "generos_literarios",
         "dificultad": "dificil"
       },
       {
@@ -7686,8 +9741,38 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "bioquímico",
+        "categoria": "profesiones_especializadas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "biosfera",
+        "categoria": "naturaleza_especifica",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "bisturí",
+        "categoria": "instrumentos_medicos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "bitcoin",
+        "categoria": "ciencia_moderna",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "blackpanther",
         "categoria": "películas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "blockchain",
+        "categoria": "ciencia_moderna",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "bloguero",
+        "categoria": "profesiones_tech",
         "dificultad": "dificil"
       },
       {
@@ -7701,8 +9786,33 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "borrasca",
+        "categoria": "elementos_clima",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "bostezo",
+        "categoria": "expresiones_corporales",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "boutique",
+        "categoria": "moda",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "breakdance",
         "categoria": "baile",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "briefing",
+        "categoria": "oficina_moderna",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "brújula",
+        "categoria": "instrumentos_cientificos",
         "dificultad": "dificil"
       },
       {
@@ -7721,6 +9831,21 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "bulevar",
+        "categoria": "elementos_urbanos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "bóveda",
+        "categoria": "elementos_arquitectonicos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "caballo",
+        "categoria": "animales",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "cafeteria",
         "categoria": "escuela",
         "dificultad": "dificil"
@@ -7728,6 +9853,11 @@
       {
         "palabra": "calcetines",
         "categoria": "ropa",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "calcetín",
+        "categoria": "elementos_moda",
         "dificultad": "dificil"
       },
       {
@@ -7751,8 +9881,58 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "calibrador",
+        "categoria": "instrumentos_cientificos",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "caligrafía",
         "categoria": "arte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "callejón",
+        "categoria": "elementos_urbanos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "camerino",
+        "categoria": "elementos_teatro",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "camión",
+        "categoria": "elementos_transporte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "campeonato",
+        "categoria": "elementos_deporte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "canario",
+        "categoria": "animales",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "capital",
+        "categoria": "elementos_economia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "capítulo",
+        "categoria": "elementos_literatura",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "carbono",
+        "categoria": "elementos_quimicos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "cardigan",
+        "categoria": "moda",
         "dificultad": "dificil"
       },
       {
@@ -7761,8 +9941,38 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "cardiólogo",
+        "categoria": "profesiones_especializadas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "caricia",
+        "categoria": "expresiones_corporales",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "cariño",
+        "categoria": "emociones",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "carretera",
+        "categoria": "elementos_transporte",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "carretilla",
         "categoria": "herramientas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "cartuchera",
+        "categoria": "objetos_escolares",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "cartucho",
+        "categoria": "elementos_oficina",
         "dificultad": "dificil"
       },
       {
@@ -7773,6 +9983,16 @@
       {
         "palabra": "castañuela",
         "categoria": "instrumentos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "catalizador",
+        "categoria": "elementos_quimicos_compuestos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "catéter",
+        "categoria": "medicina_moderna",
         "dificultad": "dificil"
       },
       {
@@ -7791,8 +10011,23 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "champeta",
+        "categoria": "bailes_modernos",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "chinchetas",
         "categoria": "oficina",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "chubasco",
+        "categoria": "elementos_clima",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "cibernética",
+        "categoria": "ciencia_moderna",
         "dificultad": "dificil"
       },
       {
@@ -7811,13 +10046,83 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "cinturón",
+        "categoria": "elementos_moda",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "cirugía",
+        "categoria": "elementos_medicina",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "clonación",
+        "categoria": "ciencia_moderna",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "cloruro",
+        "categoria": "elementos_quimicos_compuestos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "clínica",
+        "categoria": "elementos_medicina",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "cobalto",
+        "categoria": "elementos_quimicos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "cocción",
+        "categoria": "elementos_cocina",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "cochinilla",
         "categoria": "insectos",
         "dificultad": "dificil"
       },
       {
+        "palabra": "cognición",
+        "categoria": "elementos_psicologia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "colina",
+        "categoria": "elementos_naturaleza",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "columna",
+        "categoria": "partes_cuerpo",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "comando",
+        "categoria": "elementos_tecnologia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "comedia",
+        "categoria": "generos_literarios",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "compasión",
         "categoria": "emociones",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "competición",
+        "categoria": "elementos_deporte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "composición",
+        "categoria": "elementos_arte",
         "dificultad": "dificil"
       },
       {
@@ -7828,6 +10133,31 @@
       {
         "palabra": "conciencia",
         "categoria": "conceptos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "concreto",
+        "categoria": "materiales_construccion",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "condimento",
+        "categoria": "elementos_cocina",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "conducta",
+        "categoria": "elementos_psicologia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "conexión",
+        "categoria": "elementos_tecnologia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "confianza",
+        "categoria": "emociones",
         "dificultad": "dificil"
       },
       {
@@ -7846,8 +10176,18 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "consomé",
+        "categoria": "elementos_cocina",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "constelacion",
         "categoria": "universo",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "constelación",
+        "categoria": "astronomia",
         "dificultad": "dificil"
       },
       {
@@ -7858,6 +10198,11 @@
       {
         "palabra": "construir",
         "categoria": "acciones",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "consulta",
+        "categoria": "elementos_medicina",
         "dificultad": "dificil"
       },
       {
@@ -7881,13 +10226,48 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "contraste",
+        "categoria": "elementos_arte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "control",
+        "categoria": "objetos_comunes",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "cordillera",
+        "categoria": "elementos_geografia",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "coreografia",
         "categoria": "baile",
         "dificultad": "dificil"
       },
       {
+        "palabra": "cornisa",
+        "categoria": "elementos_arquitectonicos",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "corrector",
         "categoria": "oficina",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "cortadora",
+        "categoria": "herramientas_jardineria",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "cosquillas",
+        "categoria": "expresiones_corporales",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "costilla",
+        "categoria": "partes_cuerpo",
         "dificultad": "dificil"
       },
       {
@@ -7901,8 +10281,28 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "crepúsculo",
+        "categoria": "elementos_tiempo",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "crescendo",
+        "categoria": "elementos_musica",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "cricket",
         "categoria": "deportes",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "criminólogo",
+        "categoria": "profesiones_especializadas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "criptografía",
+        "categoria": "ciencia_moderna",
         "dificultad": "dificil"
       },
       {
@@ -7916,8 +10316,23 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "cronómetro",
+        "categoria": "instrumentos_cientificos",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "crucigrama",
         "categoria": "juegos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "crédito",
+        "categoria": "elementos_economia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "cuadrado",
+        "categoria": "conceptos_matematicos",
         "dificultad": "dificil"
       },
       {
@@ -7936,13 +10351,68 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "círculo",
+        "categoria": "conceptos_matematicos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "código",
+        "categoria": "elementos_tecnologia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "cúpula",
+        "categoria": "elementos_arquitectonicos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "dancehall",
+        "categoria": "bailes_modernos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "deadline",
+        "categoria": "oficina_moderna",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "decimal",
+        "categoria": "conceptos_matematicos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "decorado",
+        "categoria": "elementos_teatro",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "defensa",
+        "categoria": "elementos_deporte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "demanda",
+        "categoria": "elementos_economia",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "democracia",
         "categoria": "conceptos",
         "dificultad": "dificil"
       },
       {
+        "palabra": "depresión",
+        "categoria": "emociones_complejas",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "dermatologia",
         "categoria": "medicina",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "dermatólogo",
+        "categoria": "profesiones_especializadas",
         "dificultad": "dificil"
       },
       {
@@ -7956,8 +10426,23 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "desenlace",
+        "categoria": "elementos_literatura",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "desfibrilador",
+        "categoria": "instrumentos_medicos",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "desprecio",
         "categoria": "emociones",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "destello",
+        "categoria": "fenomenos_opticos",
         "dificultad": "dificil"
       },
       {
@@ -7971,8 +10456,23 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "developer",
+        "categoria": "profesiones_tech",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "diabetes",
+        "categoria": "medicina_moderna",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "diagnostico",
         "categoria": "medicina",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "diagnóstico",
+        "categoria": "elementos_medicina",
         "dificultad": "dificil"
       },
       {
@@ -7986,6 +10486,11 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "digital",
+        "categoria": "elementos_tecnologia",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "dignidad",
         "categoria": "conceptos",
         "dificultad": "dificil"
@@ -7993,6 +10498,11 @@
       {
         "palabra": "dimension",
         "categoria": "universo",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "dinamómetro",
+        "categoria": "instrumentos_cientificos",
         "dificultad": "dificil"
       },
       {
@@ -8011,8 +10521,58 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "diálogo",
+        "categoria": "elementos_literatura",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "dióxido",
+        "categoria": "elementos_quimicos_compuestos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "dopamina",
+        "categoria": "medicina_moderna",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "dormitorio",
         "categoria": "casa",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "dársena",
+        "categoria": "elementos_transporte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "década",
+        "categoria": "elementos_tiempo",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "déficit",
+        "categoria": "elementos_economia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "economía",
+        "categoria": "elementos_economia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "ecosistema",
+        "categoria": "ecologia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "ecuación",
+        "categoria": "conceptos_matematicos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "edificio",
+        "categoria": "elementos_ciudad",
         "dificultad": "dificil"
       },
       {
@@ -8021,8 +10581,28 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "elegante",
+        "categoria": "moda",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "embarcadero",
+        "categoria": "elementos_transporte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "emoción",
+        "categoria": "elementos_psicologia",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "emperador",
         "categoria": "historia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "emplatado",
+        "categoria": "elementos_cocina",
         "dificultad": "dificil"
       },
       {
@@ -8031,13 +10611,48 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "endocrinólogo",
+        "categoria": "profesiones_especializadas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "endoscopia",
+        "categoria": "medicina_moderna",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "endoscopio",
+        "categoria": "instrumentos_medicos",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "energía",
         "categoria": "ciencia",
         "dificultad": "dificil"
       },
       {
+        "palabra": "enfermedad",
+        "categoria": "elementos_medicina",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "enfermeria",
         "categoria": "medicina",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "enfermero",
+        "categoria": "profesiones",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "enlace",
+        "categoria": "elementos_tecnologia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "entrenador",
+        "categoria": "elementos_deporte",
         "dificultad": "dificil"
       },
       {
@@ -8051,6 +10666,31 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "enzima",
+        "categoria": "elementos_ciencia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "epidemiólogo",
+        "categoria": "profesiones_especializadas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "epílogo",
+        "categoria": "elementos_literatura",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "ergonomista",
+        "categoria": "profesiones_especializadas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "escabeche",
+        "categoria": "elementos_cocina",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "escarabajo",
         "categoria": "insectos",
         "dificultad": "dificil"
@@ -8061,8 +10701,18 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "escenario",
+        "categoria": "elementos_teatro",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "escorpion",
         "categoria": "insectos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "escrito",
+        "categoria": "elementos_literatura",
         "dificultad": "dificil"
       },
       {
@@ -8076,8 +10726,18 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "escuadra",
+        "categoria": "objetos_escolares",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "escurridor",
         "categoria": "cocina",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "esencia",
+        "categoria": "conceptos_filosoficos",
         "dificultad": "dificil"
       },
       {
@@ -8091,6 +10751,16 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "espectrómetro",
+        "categoria": "instrumentos_cientificos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "espejismo",
+        "categoria": "fenomenos_opticos",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "esperanza",
         "categoria": "conceptos",
         "dificultad": "dificil"
@@ -8098,6 +10768,16 @@
       {
         "palabra": "espumadera",
         "categoria": "cocina",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "estanque",
+        "categoria": "naturaleza_especifica",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "estante",
+        "categoria": "elementos_casa",
         "dificultad": "dificil"
       },
       {
@@ -8111,6 +10791,26 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "estofado",
+        "categoria": "elementos_cocina",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "estrategia",
+        "categoria": "elementos_deporte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "estrecho",
+        "categoria": "elementos_geografia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "estrofa",
+        "categoria": "elementos_literatura",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "estropajo",
         "categoria": "cocina",
         "dificultad": "dificil"
@@ -8121,8 +10821,23 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "estuche",
+        "categoria": "objetos_escolares",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "estudiante",
         "categoria": "escuela",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "estímulo",
+        "categoria": "elementos_psicologia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "estómago",
+        "categoria": "partes_cuerpo",
         "dificultad": "dificil"
       },
       {
@@ -8141,8 +10856,38 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "existencia",
+        "categoria": "conceptos_filosoficos",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "exprimidor",
         "categoria": "cocina",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "fachada",
+        "categoria": "elementos_arquitectonicos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "falsete",
+        "categoria": "elementos_musica",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "fantasía",
+        "categoria": "generos_literarios",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "farmacólogo",
+        "categoria": "profesiones_especializadas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "farola",
+        "categoria": "elementos_urbanos",
         "dificultad": "dificil"
       },
       {
@@ -8151,8 +10896,43 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "feedback",
+        "categoria": "oficina_moderna",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "felicidad",
         "categoria": "emociones",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "finanza",
+        "categoria": "elementos_economia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "firewall",
+        "categoria": "herramientas_digitales",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "fluorescencia",
+        "categoria": "fenomenos_opticos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "fonendoscopio",
+        "categoria": "instrumentos_medicos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "formato",
+        "categoria": "elementos_tecnologia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "fosforescencia",
+        "categoria": "fenomenos_opticos",
         "dificultad": "dificil"
       },
       {
@@ -8171,8 +10951,18 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "fracción",
+        "categoria": "conceptos_matematicos",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "frecuencia",
         "categoria": "ciencia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "fregadero",
+        "categoria": "elementos_casa",
         "dificultad": "dificil"
       },
       {
@@ -8181,8 +10971,18 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "fritura",
+        "categoria": "elementos_cocina",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "frustración",
         "categoria": "emociones",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "fumigador",
+        "categoria": "herramientas_jardineria",
         "dificultad": "dificil"
       },
       {
@@ -8196,6 +10996,31 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "fábula",
+        "categoria": "generos_literarios",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "férula",
+        "categoria": "instrumentos_medicos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "fórceps",
+        "categoria": "instrumentos_medicos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "fórmula",
+        "categoria": "elementos_ciencia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "fósforo",
+        "categoria": "elementos_quimicos",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "gabardina",
         "categoria": "ropa",
         "dificultad": "dificil"
@@ -8203,6 +11028,31 @@
       {
         "palabra": "galaxia",
         "categoria": "ciencia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "galería",
+        "categoria": "elementos_arquitectonicos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "gallina",
+        "categoria": "animales",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "gameplay",
+        "categoria": "videojuegos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "ganancia",
+        "categoria": "elementos_economia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "garganta",
+        "categoria": "partes_cuerpo",
         "dificultad": "dificil"
       },
       {
@@ -8216,8 +11066,23 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "geofísico",
+        "categoria": "profesiones_especializadas",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "geografia",
         "categoria": "escuela",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "geometría",
+        "categoria": "conceptos_matematicos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "gerente",
+        "categoria": "oficina_moderna",
         "dificultad": "dificil"
       },
       {
@@ -8236,6 +11101,16 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "glorieta",
+        "categoria": "elementos_urbanos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "glucosa",
+        "categoria": "elementos_quimicos_compuestos",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "graduacion",
         "categoria": "festividades",
         "dificultad": "dificil"
@@ -8243,6 +11118,11 @@
       {
         "palabra": "grapadora",
         "categoria": "oficina",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "gratinado",
+        "categoria": "elementos_cocina",
         "dificultad": "dificil"
       },
       {
@@ -8256,6 +11136,16 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "gráfica",
+        "categoria": "conceptos_matematicos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "género",
+        "categoria": "elementos_literatura",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "habitacion",
         "categoria": "casa",
         "dificultad": "dificil"
@@ -8266,8 +11156,23 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "hardware",
+        "categoria": "elementos_tecnologia",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "helicoptero",
         "categoria": "transporte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "helicóptero",
+        "categoria": "elementos_transporte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "helipuerto",
+        "categoria": "elementos_transporte",
         "dificultad": "dificil"
       },
       {
@@ -8276,8 +11181,38 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "hidrante",
+        "categoria": "elementos_urbanos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "hidrógeno",
+        "categoria": "elementos_quimicos_compuestos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "hidrólogo",
+        "categoria": "profesiones_especializadas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "hidróxido",
+        "categoria": "elementos_quimicos_compuestos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "higrómetro",
+        "categoria": "instrumentos_cientificos",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "hitchcock",
         "categoria": "celebridades",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "holografía",
+        "categoria": "ciencia_moderna",
         "dificultad": "dificil"
       },
       {
@@ -8301,8 +11236,33 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "hábitat",
+        "categoria": "ecologia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "identidad",
+        "categoria": "elementos_psicologia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "iluminación",
+        "categoria": "elementos_teatro",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "imaginación",
         "categoria": "conceptos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "impuesto",
+        "categoria": "elementos_economia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "impulso",
+        "categoria": "elementos_psicologia",
         "dificultad": "dificil"
       },
       {
@@ -8331,6 +11291,16 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "inflación",
+        "categoria": "elementos_economia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "influencer",
+        "categoria": "profesiones_tech",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "ingeniero",
         "categoria": "profesiones",
         "dificultad": "dificil"
@@ -8338,6 +11308,11 @@
       {
         "palabra": "inglaterra",
         "categoria": "países",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "inmunólogo",
+        "categoria": "profesiones_especializadas",
         "dificultad": "dificil"
       },
       {
@@ -8351,8 +11326,33 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "instante",
+        "categoria": "elementos_tiempo",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "insulina",
+        "categoria": "medicina_moderna",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "integral",
+        "categoria": "conceptos_matematicos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "interfaz",
+        "categoria": "elementos_tecnologia",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "interstellar",
         "categoria": "películas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "intervalo",
+        "categoria": "elementos_musica",
         "dificultad": "dificil"
       },
       {
@@ -8371,8 +11371,18 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "inundación",
+        "categoria": "fenomenos_naturales",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "invencion",
         "categoria": "historia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "invernadero",
+        "categoria": "ecologia",
         "dificultad": "dificil"
       },
       {
@@ -8386,6 +11396,16 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "inyección",
+        "categoria": "elementos_medicina",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "joystick",
+        "categoria": "videojuegos",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "jubilacion",
         "categoria": "festividades",
         "dificultad": "dificil"
@@ -8396,8 +11416,23 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "júpiter",
+        "categoria": "astronomia",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "karma",
         "categoria": "conceptos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "keyboard",
+        "categoria": "herramientas_digitales",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "kitesurf",
+        "categoria": "deportes_extremos",
         "dificultad": "dificil"
       },
       {
@@ -8416,6 +11451,16 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "lagarto",
+        "categoria": "animales",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "laringoscopio",
+        "categoria": "instrumentos_medicos",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "lavavajillas",
         "categoria": "hogar",
         "dificultad": "dificil"
@@ -8423,6 +11468,11 @@
       {
         "palabra": "lealtad",
         "categoria": "conceptos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "lexicógrafo",
+        "categoria": "profesiones_especializadas",
         "dificultad": "dificil"
       },
       {
@@ -8441,6 +11491,11 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "llovizna",
+        "categoria": "elementos_clima",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "losangeles",
         "categoria": "ciudades",
         "dificultad": "dificil"
@@ -8448,6 +11503,21 @@
       {
         "palabra": "luciernaga",
         "categoria": "insectos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "lágrima",
+        "categoria": "expresiones_corporales",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "lírica",
+        "categoria": "generos_literarios",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "machete",
+        "categoria": "herramientas_jardineria",
         "dificultad": "dificil"
       },
       {
@@ -8461,6 +11531,16 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "madrugada",
+        "categoria": "elementos_tiempo",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "magnesio",
+        "categoria": "elementos_quimicos",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "maleficent",
         "categoria": "películas",
         "dificultad": "dificil"
@@ -8471,8 +11551,23 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "manguera",
+        "categoria": "herramientas_jardineria",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "maremoto",
+        "categoria": "fenomenos_naturales",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "margarita",
         "categoria": "plantas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "marinado",
+        "categoria": "elementos_cocina",
         "dificultad": "dificil"
       },
       {
@@ -8486,8 +11581,18 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "marquesina",
+        "categoria": "elementos_urbanos",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "marruecos",
         "categoria": "países",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "mascarilla",
+        "categoria": "instrumentos_medicos",
         "dificultad": "dificil"
       },
       {
@@ -8498,6 +11603,11 @@
       {
         "palabra": "mayweather",
         "categoria": "deportistas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "mediodía",
+        "categoria": "elementos_tiempo",
         "dificultad": "dificil"
       },
       {
@@ -8518,6 +11628,21 @@
       {
         "palabra": "meteorología",
         "categoria": "ciencia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "meteorólogo",
+        "categoria": "profesiones_especializadas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "metáfora",
+        "categoria": "elementos_literatura",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "microbiólogo",
+        "categoria": "profesiones_especializadas",
         "dificultad": "dificil"
       },
       {
@@ -8556,8 +11681,23 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "misterio",
+        "categoria": "generos_literarios",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "moldura",
+        "categoria": "elementos_arquitectonicos",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "molécula",
         "categoria": "ciencia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "momento",
+        "categoria": "elementos_tiempo",
         "dificultad": "dificil"
       },
       {
@@ -8566,8 +11706,28 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "monumento",
+        "categoria": "elementos_urbanos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "monólogo",
+        "categoria": "elementos_teatro",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "monóxido",
+        "categoria": "elementos_quimicos_compuestos",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "mosaico",
         "categoria": "arte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "motivación",
+        "categoria": "elementos_psicologia",
         "dificultad": "dificil"
       },
       {
@@ -8581,6 +11741,31 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "máscara",
+        "categoria": "elementos_teatro",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "médico",
+        "categoria": "profesiones",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "músculo",
+        "categoria": "partes_cuerpo",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "narrador",
+        "categoria": "elementos_literatura",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "navegador",
+        "categoria": "elementos_tecnologia",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "neurologia",
         "categoria": "medicina",
         "dificultad": "dificil"
@@ -8588,6 +11773,21 @@
       {
         "palabra": "neurología",
         "categoria": "ciencia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "neurólogo",
+        "categoria": "profesiones_especializadas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "nintendo",
+        "categoria": "videojuegos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "nitrato",
+        "categoria": "elementos_quimicos_compuestos",
         "dificultad": "dificil"
       },
       {
@@ -8611,6 +11811,16 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "nublado",
+        "categoria": "elementos_tiempo",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "número",
+        "categoria": "conceptos_matematicos",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "observatorio",
         "categoria": "universo",
         "dificultad": "dificil"
@@ -8621,8 +11831,23 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "ombligo",
+        "categoria": "partes_cuerpo",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "oncologia",
         "categoria": "medicina",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "oncólogo",
+        "categoria": "profesiones_especializadas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "optimismo",
+        "categoria": "emociones_complejas",
         "dificultad": "dificil"
       },
       {
@@ -8641,8 +11866,18 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "orgánico",
+        "categoria": "ecologia",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "orquesta",
         "categoria": "arte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "otoscopio",
+        "categoria": "instrumentos_medicos",
         "dificultad": "dificil"
       },
       {
@@ -8651,8 +11886,33 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "paciente",
+        "categoria": "elementos_medicina",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "padrastro",
         "categoria": "familia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "paleontólogo",
+        "categoria": "profesiones_especializadas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "palmada",
+        "categoria": "expresiones_corporales",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "paloma",
+        "categoria": "animales",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "panadero",
+        "categoria": "profesiones",
         "dificultad": "dificil"
       },
       {
@@ -8661,8 +11921,43 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "pantera",
+        "categoria": "animales",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "paranoia",
+        "categoria": "emociones_complejas",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "parapente",
         "categoria": "transporte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "parasol",
+        "categoria": "elementos_playa",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "parquímetro",
+        "categoria": "elementos_urbanos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "partido",
+        "categoria": "elementos_deporte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "partitura",
+        "categoria": "elementos_musica",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "pasarela",
+        "categoria": "elementos_urbanos",
         "dificultad": "dificil"
       },
       {
@@ -8676,8 +11971,23 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "password",
+        "categoria": "herramientas_digitales",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "patólogo",
+        "categoria": "profesiones_especializadas",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "paz",
         "categoria": "conceptos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "pañuelo",
+        "categoria": "elementos_moda",
         "dificultad": "dificil"
       },
       {
@@ -8696,6 +12006,16 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "penalty",
+        "categoria": "elementos_deporte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "pendiente",
+        "categoria": "elementos_moda",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "pendientes",
         "categoria": "ropa",
         "dificultad": "dificil"
@@ -8703,6 +12023,26 @@
       {
         "palabra": "pensamiento",
         "categoria": "conceptos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "pentagrama",
+        "categoria": "elementos_musica",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "península",
+        "categoria": "elementos_geografia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "percepción",
+        "categoria": "elementos_psicologia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "perforadora",
+        "categoria": "elementos_oficina",
         "dificultad": "dificil"
       },
       {
@@ -8718,6 +12058,36 @@
       {
         "palabra": "persefone",
         "categoria": "mitología",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "persiana",
+        "categoria": "elementos_casa",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "personaje",
+        "categoria": "elementos_teatro",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "personalidad",
+        "categoria": "elementos_psicologia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "perspectiva",
+        "categoria": "elementos_arte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "perímetro",
+        "categoria": "conceptos_matematicos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "peróxido",
+        "categoria": "elementos_quimicos_compuestos",
         "dificultad": "dificil"
       },
       {
@@ -8741,8 +12111,33 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "planicie",
+        "categoria": "elementos_geografia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "playstation",
+        "categoria": "videojuegos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "plástico",
+        "categoria": "materiales_construccion",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "podadora",
+        "categoria": "herramientas_jardineria",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "poesía",
         "categoria": "arte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "polvo cósmico",
+        "categoria": "elementos_espacio",
         "dificultad": "dificil"
       },
       {
@@ -8756,6 +12151,16 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "poseidón",
+        "categoria": "mitologia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "potasio",
+        "categoria": "elementos_quimicos",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "prevencion",
         "categoria": "medicina",
         "dificultad": "dificil"
@@ -8763,6 +12168,11 @@
       {
         "palabra": "primavera",
         "categoria": "festividades",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "probeta",
+        "categoria": "instrumentos_cientificos",
         "dificultad": "dificil"
       },
       {
@@ -8776,13 +12186,73 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "propano",
+        "categoria": "elementos_quimicos_compuestos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "proteína",
+        "categoria": "medicina_moderna",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "proyecto",
+        "categoria": "oficina_moderna",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "prórroga",
+        "categoria": "elementos_deporte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "psicólogo",
+        "categoria": "profesiones",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "psiquiatra",
+        "categoria": "profesiones_especializadas",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "psiquiatria",
         "categoria": "medicina",
         "dificultad": "dificil"
       },
       {
+        "palabra": "puchero",
+        "categoria": "expresiones_corporales",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "pánico",
         "categoria": "emociones",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "páramo",
+        "categoria": "naturaleza_especifica",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "párrafo",
+        "categoria": "elementos_literatura",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "pórtico",
+        "categoria": "elementos_arquitectonicos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "púrpura",
+        "categoria": "colores",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "quiosco",
+        "categoria": "elementos_ciudad",
         "dificultad": "dificil"
       },
       {
@@ -8796,8 +12266,23 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "radiación",
+        "categoria": "elementos_ciencia",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "radiologia",
         "categoria": "medicina",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "radiología",
+        "categoria": "medicina_moderna",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "radiólogo",
+        "categoria": "profesiones_especializadas",
         "dificultad": "dificil"
       },
       {
@@ -8811,13 +12296,48 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "reacción",
+        "categoria": "elementos_ciencia",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "recibidor",
         "categoria": "muebles",
         "dificultad": "dificil"
       },
       {
+        "palabra": "reciclaje",
+        "categoria": "ecologia",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "recipiente",
         "categoria": "cocina",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "reducción",
+        "categoria": "elementos_cocina",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "reflejo",
+        "categoria": "fenomenos_opticos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "refracción",
+        "categoria": "fenomenos_opticos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "regadera",
+        "categoria": "herramientas_jardineria",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "reggaeton",
+        "categoria": "bailes_modernos",
         "dificultad": "dificil"
       },
       {
@@ -8831,8 +12351,28 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "relámpago",
+        "categoria": "elementos_tiempo",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "remedio",
+        "categoria": "elementos_medicina",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "renacimiento",
         "categoria": "historia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "renovable",
+        "categoria": "ecologia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "reparto",
+        "categoria": "elementos_teatro",
         "dificultad": "dificil"
       },
       {
@@ -8846,8 +12386,23 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "resiliencia",
+        "categoria": "emociones_complejas",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "respeto",
         "categoria": "conceptos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "respuesta",
+        "categoria": "elementos_psicologia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "reverencia",
+        "categoria": "expresiones_corporales",
         "dificultad": "dificil"
       },
       {
@@ -8866,6 +12421,16 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "rodilla",
+        "categoria": "partes_cuerpo",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "romance",
+        "categoria": "generos_literarios",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "rompecabezas",
         "categoria": "juegos",
         "dificultad": "dificil"
@@ -8873,6 +12438,11 @@
       {
         "palabra": "ronaldinho",
         "categoria": "deportistas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "rotonda",
+        "categoria": "elementos_urbanos",
         "dificultad": "dificil"
       },
       {
@@ -8896,8 +12466,18 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "sandalia",
+        "categoria": "elementos_moda",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "sandalias",
         "categoria": "ropa",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "sandbox",
+        "categoria": "videojuegos",
         "dificultad": "dificil"
       },
       {
@@ -8913,6 +12493,21 @@
       {
         "palabra": "schumacher",
         "categoria": "deportistas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "secretario",
+        "categoria": "profesiones",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "semáforo",
+        "categoria": "elementos_urbanos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "sensación",
+        "categoria": "elementos_psicologia",
         "dificultad": "dificil"
       },
       {
@@ -8936,8 +12531,23 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "silencio",
+        "categoria": "elementos_musica",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "sinfonía",
         "categoria": "arte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "sismólogo",
+        "categoria": "profesiones_especializadas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "sistema",
+        "categoria": "elementos_tecnologia",
         "dificultad": "dificil"
       },
       {
@@ -8946,8 +12556,23 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "skydiving",
+        "categoria": "deportes_extremos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "sneakers",
+        "categoria": "moda",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "snowboard",
         "categoria": "deportes",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "software",
+        "categoria": "herramientas_digitales",
         "dificultad": "dificil"
       },
       {
@@ -8961,13 +12586,38 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "sonrisa",
+        "categoria": "expresiones_corporales",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "sostenible",
+        "categoria": "ecologia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "sostenido",
+        "categoria": "elementos_musica",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "spielberg",
         "categoria": "celebridades",
         "dificultad": "dificil"
       },
       {
+        "palabra": "stilettos",
+        "categoria": "moda",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "stonehenge",
         "categoria": "historia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "streamer",
+        "categoria": "profesiones_tech",
         "dificultad": "dificil"
       },
       {
@@ -8991,6 +12641,31 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "sulfato",
+        "categoria": "elementos_quimicos_compuestos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "supernova",
+        "categoria": "astronomia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "suspiro",
+        "categoria": "expresiones_corporales",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "sátira",
+        "categoria": "generos_literarios",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "síntoma",
+        "categoria": "elementos_medicina",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "tailandia",
         "categoria": "países",
         "dificultad": "dificil"
@@ -8998,6 +12673,11 @@
       {
         "palabra": "taladrador",
         "categoria": "herramientas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "tangente",
+        "categoria": "conceptos_matematicos",
         "dificultad": "dificil"
       },
       {
@@ -9026,6 +12706,11 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "televisión",
+        "categoria": "elementos_hogar",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "temperatura",
         "categoria": "ciencia",
         "dificultad": "dificil"
@@ -9041,6 +12726,21 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "tensiómetro",
+        "categoria": "instrumentos_medicos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "teoría",
+        "categoria": "elementos_ciencia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "terminal",
+        "categoria": "elementos_transporte",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "terminator",
         "categoria": "películas",
         "dificultad": "dificil"
@@ -9048,6 +12748,11 @@
       {
         "palabra": "termometro",
         "categoria": "cocina",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "termómetro",
+        "categoria": "instrumentos_cientificos",
         "dificultad": "dificil"
       },
       {
@@ -9061,6 +12766,11 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "textura",
+        "categoria": "elementos_arte",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "thanksgiving",
         "categoria": "festividades",
         "dificultad": "dificil"
@@ -9071,8 +12781,18 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "torniquete",
+        "categoria": "instrumentos_medicos",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "tostadora",
         "categoria": "cocina",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "toxicólogo",
+        "categoria": "profesiones_especializadas",
         "dificultad": "dificil"
       },
       {
@@ -9081,8 +12801,28 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "tragedia",
+        "categoria": "generos_literarios",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "tramoya",
+        "categoria": "elementos_teatro",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "transformers",
         "categoria": "películas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "transplantador",
+        "categoria": "herramientas_jardineria",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "tranvía",
+        "categoria": "elementos_transporte",
         "dificultad": "dificil"
       },
       {
@@ -9096,8 +12836,18 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "trending",
+        "categoria": "redes_sociales",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "triangulo",
         "categoria": "instrumentos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "tráfico",
+        "categoria": "elementos_transporte",
         "dificultad": "dificil"
       },
       {
@@ -9111,6 +12861,21 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "táctica",
+        "categoria": "elementos_deporte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "técnica",
+        "categoria": "elementos_arte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "tóxico",
+        "categoria": "ecologia",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "ultraligero",
         "categoria": "transporte",
         "dificultad": "dificil"
@@ -9118,6 +12883,11 @@
       {
         "palabra": "unicornio",
         "categoria": "mitología",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "universidad",
+        "categoria": "elementos_ciudad",
         "dificultad": "dificil"
       },
       {
@@ -9131,6 +12901,11 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "urólogo",
+        "categoria": "profesiones_especializadas",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "valentía",
         "categoria": "emociones",
         "dificultad": "dificil"
@@ -9141,6 +12916,11 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "variable",
+        "categoria": "elementos_tecnologia",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "velocidad",
         "categoria": "ciencia",
         "dificultad": "dificil"
@@ -9148,6 +12928,11 @@
       {
         "palabra": "venezuela",
         "categoria": "países",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "ventanal",
+        "categoria": "elementos_arquitectonicos",
         "dificultad": "dificil"
       },
       {
@@ -9171,8 +12956,23 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "vestuario",
+        "categoria": "elementos_teatro",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "viaducto",
+        "categoria": "elementos_transporte",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "videoarte",
         "categoria": "arte",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "videoclip",
+        "categoria": "arte_digital",
         "dificultad": "dificil"
       },
       {
@@ -9181,13 +12981,43 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "virtual",
+        "categoria": "elementos_tecnologia",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "virus",
         "categoria": "ciencia",
         "dificultad": "dificil"
       },
       {
+        "palabra": "virólogo",
+        "categoria": "profesiones_especializadas",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "voldemort",
         "categoria": "personajes",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "voltímetro",
+        "categoria": "instrumentos_cientificos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "vía láctea",
+        "categoria": "astronomia",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "wakeboard",
+        "categoria": "deportes_extremos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "windsurf",
+        "categoria": "deportes_extremos",
         "dificultad": "dificil"
       },
       {
@@ -9201,8 +13031,18 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "workflow",
+        "categoria": "oficina_moderna",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "yggdrasil",
         "categoria": "mitología",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "youtuber",
+        "categoria": "profesiones_tech",
         "dificultad": "dificil"
       },
       {
@@ -9216,6 +13056,21 @@
         "dificultad": "dificil"
       },
       {
+        "palabra": "zoólogo",
+        "categoria": "profesiones_especializadas",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "zócalo",
+        "categoria": "elementos_arquitectonicos",
+        "dificultad": "dificil"
+      },
+      {
+        "palabra": "ángulo",
+        "categoria": "conceptos_matematicos",
+        "dificultad": "dificil"
+      },
+      {
         "palabra": "átomo",
         "categoria": "ciencia",
         "dificultad": "dificil"
@@ -9224,13 +13079,18 @@
         "palabra": "ópera",
         "categoria": "arte",
         "dificultad": "dificil"
+      },
+      {
+        "palabra": "órbita",
+        "categoria": "elementos_espacio",
+        "dificultad": "dificil"
       }
     ]
   },
   "total_palabras": {
-    "facil": 601,
-    "medio": 898,
-    "dificil": 345,
-    "total": 1844
+    "facil": 668,
+    "medio": 1180,
+    "dificil": 768,
+    "total": 2616
   }
 }
