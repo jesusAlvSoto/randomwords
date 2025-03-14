@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate PWA Icons</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { background: #f0f0f0; padding: 20px; }
+        .icon-preview { margin: 10px; display: inline-block; }
+        canvas { border: 1px solid #ccc; background: white; }
+    </style>
+</head>
+<body>
+    <div id="icons"></div>
+    <script>
+        const sizes = [72, 96, 128, 144, 152, 192, 384, 512];
+        const iconContainer = document.getElementById('icons');
+
+        function drawIcon(size) {
+            const canvas = document.createElement('canvas');
+            canvas.width = size;
+            canvas.height = size;
+            const ctx = canvas.getContext('2d');
+
+            // Create gradient background
+            const gradient = ctx.createLinearGradient(0, 0, size, size);
+            gradient.addColorStop(0, '#1e88e5');  // primary-blue
+            gradient.addColorStop(1, '#bbdefb');  // light-blue
+            
+            // Draw circle with gradient
+            ctx.beginPath();
+            ctx.arc(size/2, size/2, size/2, 0, Math.PI * 2);
+            ctx.fillStyle = gradient;
+            ctx.fill();
+
+            // Draw brain icon
+            ctx.fillStyle = 'white';
+            ctx.font = `${size * 0.6}px "Font Awesome 6 Free"`;
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText('\uf5dc', size/2, size/2);  // brain icon unicode
+
+            // Add preview to page
+            const wrapper = document.createElement('div');
+            wrapper.className = 'icon-preview';
+            wrapper.innerHTML = `<p>${size}x${size}</p>`;
+            wrapper.appendChild(canvas);
+            iconContainer.appendChild(wrapper);
+
+            // Download link
+            const link = document.createElement('a');
+            link.download = `icon-${size}x${size}.png`;
+            link.href = canvas.toDataURL('image/png');
+            link.textContent = 'Download';
+            wrapper.appendChild(link);
+        }
+
+        // Generate all icon sizes
+        sizes.forEach(drawIcon);
+    </script>
+</body>
+</html> 
