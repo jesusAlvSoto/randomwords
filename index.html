@@ -319,9 +319,52 @@
                 min-width: 280px;
             }
         }
+
+        .install-button {
+            position: fixed;
+            bottom: 60px;
+            right: 20px;
+            background-color: var(--primary-blue);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 50px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            display: none;
+            z-index: 1000;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .install-button:hover {
+            background-color: var(--dark-blue);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .install-button i {
+            margin-right: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .install-button {
+                bottom: 70px;
+                right: 50%;
+                transform: translateX(50%);
+                font-size: 0.85rem;
+            }
+            
+            .install-button:hover {
+                transform: translateX(50%) translateY(-2px);
+            }
+        }
     </style>
 </head>
 <body>
+    <button id="installButton" class="install-button">
+        <i class="fas fa-download"></i>Instalar aplicación
+    </button>
     <div class="container py-5">
         <h1 id="main-title" class="main-title text-center animate__animated animate__fadeIn">Generador de palabras</h1>
         <div class="players-counter">
@@ -397,6 +440,39 @@
                     });
             });
         }
+
+        // PWA Install Prompt
+        let deferredPrompt;
+        const installButton = document.getElementById('installButton');
+
+        window.addEventListener('beforeinstallprompt', (e) => {
+            // Prevent Chrome 67 and earlier from automatically showing the prompt
+            e.preventDefault();
+            // Stash the event so it can be triggered later
+            deferredPrompt = e;
+            // Show the install button
+            installButton.style.display = 'block';
+        });
+
+        installButton.addEventListener('click', async () => {
+            if (deferredPrompt) {
+                // Show the install prompt
+                deferredPrompt.prompt();
+                // Wait for the user to respond to the prompt
+                const { outcome } = await deferredPrompt.userChoice;
+                console.log(`User response to the install prompt: ${outcome}`);
+                // We've used the prompt, and can't use it again, so clear it
+                deferredPrompt = null;
+                // Hide the install button
+                installButton.style.display = 'none';
+            }
+        });
+
+        // Hide button if app is already installed
+        window.addEventListener('appinstalled', () => {
+            installButton.style.display = 'none';
+            console.log('PWA was installed');
+        });
     </script>
 </body>
 </html> 
