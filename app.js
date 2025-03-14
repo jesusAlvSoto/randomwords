@@ -1,6 +1,7 @@
 $(document).ready(function() {
     let words = null;
     let currentWord = null;
+    let wordCounter = 0;
     const STORAGE_KEY = 'usedWords';
     const GITHUB_JSON_URL = 'https://raw.githubusercontent.com/jesusAlvSoto/randomwords/master/palabras.json';
 
@@ -17,15 +18,20 @@ $(document).ready(function() {
     // Update past words list display
     function updatePastWordsList() {
         const $list = $('#past-words-list');
+        const $clearButton = $('#clear-list');
         $list.empty();
         
-        // Show only the words, without additional info
-        const pastWords = usedWords.map(word => `<div>${word}</div>`).reverse();
+        // Show words with their numbers
+        const pastWords = usedWords.map((word, index) => 
+            `<div>#${index + 1} - ${word}</div>`
+        ).reverse();
         
         if (pastWords.length === 0) {
             $list.html('<div class="text-center text-muted">No hay palabras pasadas</div>');
+            $clearButton.hide();
         } else {
             $list.html(pastWords.join(''));
+            $clearButton.show();
         }
     }
 
@@ -82,6 +88,7 @@ $(document).ready(function() {
         if (unusedWords.length === 0) {
             usedWords = [];
             localStorage.setItem(STORAGE_KEY, JSON.stringify(usedWords));
+            wordCounter = 0;
             return getRandomWord(difficulty);
         }
 
@@ -99,6 +106,14 @@ $(document).ready(function() {
         
         if (word) {
             currentWord = word;
+            wordCounter++;
+
+            // Update the title
+            $('#main-title')
+                .removeClass()
+                .addClass('main-title game-mode text-center animate__animated animate__fadeIn')
+                .text(`Palabra #${wordCounter}`);
+
             // Display the word
             $('#word')
                 .hide()
@@ -106,7 +121,7 @@ $(document).ready(function() {
                 .addClass('word-display animate__animated animate__bounceIn');
 
             $('.word-text').text(word.palabra);
-            $('.difficulty-label').text(difficultyLabels[word.dificultad]);
+            $('.word-difficulty-label').text(difficultyLabels[word.dificultad]);
 
             $('#word').show();
         }
@@ -115,15 +130,6 @@ $(document).ready(function() {
     // Event Handlers
     $('#start-btn').click(function() {
         fetchWords().then(() => {
-            // Animate title to smaller size
-            $('.main-title')
-                .addClass('animate__animated animate__fadeOut')
-                .one('animationend', function() {
-                    $(this)
-                        .removeClass('animate__fadeOut')
-                        .addClass('game-mode animate__fadeIn');
-                });
-
             $('#landing-page').fadeOut(400, function() {
                 $('#game-page').fadeIn(400);
                 displayNewWord();
@@ -142,10 +148,11 @@ $(document).ready(function() {
         }
     });
 
-    $('#clear-storage, #clear-list').click(function() {
+    $('#clear-list').click(function() {
         localStorage.removeItem(STORAGE_KEY);
         usedWords = [];
         currentWord = null;
+        wordCounter = 0;
         updatePastWordsList();
         $(this).addClass('animate__animated animate__fadeIn');
         setTimeout(() => {

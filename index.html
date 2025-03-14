@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Generador de Palabras</title>
+    <title>Generador de Palabras Aleatorias - Juegos Familiares</title>
+    <meta name="description" content="Generador de palabras aleatorias para juegos infantiles y familiares. Perfecto para mímica, adivinanzas y diversión en familia. ¡Juega y diviértete!">
+    <meta name="keywords" content="generador palabras aleatorias, juegos infantiles, juegos familiares, mímica, diversión familiar, palabras para jugar">
+    <meta property="og:title" content="Generador de Palabras Aleatorias - Juegos Familiares">
+    <meta property="og:description" content="Generador de palabras aleatorias para juegos infantiles y familiares. Perfecto para mímica, adivinanzas y diversión en familia.">
+    <meta property="og:type" content="website">
+    <meta name="robots" content="index, follow">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -68,16 +74,23 @@
             font-weight: 700;
             text-align: center;
             margin: 2rem 0;
-            padding: 2rem 2rem 0.5rem;
+            padding: 1.5rem 2rem 0;
             background: white;
             border-radius: 15px;
             box-shadow: 0 8px 16px rgba(0,0,0,0.1);
             display: none;
             position: relative;
+            min-height: 150px;
+            display: flex;
+            flex-direction: column;
         }
 
         .word-text {
-            margin-bottom: 2rem;
+            margin-bottom: 0.5rem;
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .word-info {
@@ -86,11 +99,10 @@
             font-size: 0.85rem;
             color: #666;
             padding: 0.5rem 1rem;
-            border-top: 1px solid #eee;
         }
 
         .difficulty-selector {
-            max-width: 130px;
+            max-width: 160px;
             margin: 1rem auto 0;
             position: relative;
             text-align: center;
@@ -124,32 +136,32 @@
         }
 
         .past-words-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
             margin-bottom: 1rem;
+            text-align: center;
         }
 
         .past-words-title {
             color: var(--dark-blue);
             font-size: 1.1rem;
             margin: 0;
+            margin-bottom: 0.25rem;
         }
 
         .btn-clear-list {
-            font-size: 0.9rem;
-            padding: 0.25rem 1rem;
+            font-size: 0.8rem;
             color: #dc3545;
             background: none;
-            border: 1px solid #dc3545;
-            border-radius: 50px;
+            border: none;
+            padding: 0;
+            text-decoration: underline;
             cursor: pointer;
             transition: all 0.3s ease;
+            display: inline-block;
         }
 
         .btn-clear-list:hover {
-            color: white;
-            background: #dc3545;
+            color: #bb2d3b;
+            background: none;
         }
 
         .past-words-list {
@@ -158,10 +170,15 @@
             padding: 0.5rem;
             font-size: 0.9rem;
             color: #666;
+            text-align: center;
         }
 
         .past-words-list div {
             padding: 0.25rem 0;
+            text-align: center;
+        }
+
+        .past-words-list div:not(:last-child) {
             border-bottom: 1px solid #eee;
         }
 
@@ -213,9 +230,14 @@
             position: fixed;
             bottom: 0;
             width: 100%;
-            padding: 1rem;
-            background: rgba(255, 255, 255, 0.9);
+            padding: 0.5rem;
+            background: var(--dark-blue);
             backdrop-filter: blur(5px);
+        }
+
+        .footer p {
+            font-size: 0.8rem;
+            color: white;
         }
 
         .heart {
@@ -259,14 +281,19 @@
                 padding: 1.5rem 1.5rem 1rem;
             }
         }
+
+        .word-number {
+            color: var(--primary-blue);
+            font-size: 0.9em;
+            margin-right: 0.5rem;
+        }
     </style>
 </head>
 <body>
     <div class="container py-5">
-        <h1 class="main-title text-center animate__animated animate__fadeIn">Generador de Palabras</h1>
+        <h1 id="main-title" class="main-title text-center animate__animated animate__fadeIn">Generador de palabras aleatorias</h1>
         
         <div id="landing-page" class="text-center animate__animated animate__fadeIn">
-            <p class="description mb-5">¡Diviértete jugando a la mímica con tus amigos! Esta aplicación genera palabras aleatorias para que puedas poner a prueba tus habilidades de actuación y pasar momentos inolvidables.</p>
             <button id="start-btn" class="btn btn-primary animate__animated animate__pulse animate__infinite">Empezar</button>
         </div>
 
@@ -276,23 +303,22 @@
                 <div class="word-info">
                     <div class="difficulty-info">
                         <i class="fas fa-brain"></i>
-                        <span class="difficulty-label"></span>
+                        <span class="word-difficulty-label"></span>
                     </div>
                 </div>
             </div>
             
             <button id="generate-btn" class="btn btn-primary">Genera otra palabra</button>
             <div class="difficulty-selector">
-                <label class="difficulty-label">Dificultad</label>
                 <div class="dropdown">
                     <button class="dropdown-toggle" type="button" id="difficulty" data-bs-toggle="dropdown" aria-expanded="false">
-                        Mezcladas
+                        Dificultad mixta
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item active" href="#" data-value="mezcladas">Mezcladas</a></li>
-                        <li><a class="dropdown-item" href="#" data-value="facil">Fáciles</a></li>
-                        <li><a class="dropdown-item" href="#" data-value="medio">Medias</a></li>
-                        <li><a class="dropdown-item" href="#" data-value="dificil">Difíciles</a></li>
+                        <li><a class="dropdown-item active" href="#" data-value="mezcladas">Dificultad mixta</a></li>
+                        <li><a class="dropdown-item" href="#" data-value="facil">Dificultad: Fácil</a></li>
+                        <li><a class="dropdown-item" href="#" data-value="medio">Dificultad: Media</a></li>
+                        <li><a class="dropdown-item" href="#" data-value="dificil">Dificultad: Difícil</a></li>
                     </ul>
                 </div>
             </div>
@@ -300,7 +326,7 @@
             <div class="past-words-section">
                 <div class="past-words-header">
                     <h3 class="past-words-title">Palabras pasadas</h3>
-                    <button id="clear-list" class="btn-clear-list">Borrar lista</button>
+                    <button id="clear-list" class="btn-clear-list" style="display: none;">Borrar lista</button>
                 </div>
                 <div id="past-words-list" class="past-words-list"></div>
             </div>
@@ -311,10 +337,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col text-center">
-                    <p class="mb-0">Made with <span class="heart">❤</span> by Yisus</p>
-                </div>
-                <div class="col-auto">
-                    <button id="clear-storage" class="btn-clear-storage">Borrar almacenamiento local</button>
+                    <p class="mb-0">Made with <span class="heart">❤</span> by <a href="https://x.com/yisusazo" target="_blank" style="color: white; text-decoration: none;">Yisus</a></p>
                 </div>
             </div>
         </div>
@@ -323,5 +346,8 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="app.js"></script>
+    <!-- 100% privacy-first analytics -->
+    <script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+
 </body>
 </html> 
