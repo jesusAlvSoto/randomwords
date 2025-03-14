@@ -4,82 +4,84 @@ const urlsToCache = [
     './index.html',
     './app.js',
     './manifest.json',
-    './palabras.json',
-    'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css',
-    'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css',
-    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css',
-    'https://code.jquery.com/jquery-3.6.0.min.js',
-    'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js'
+    './icons/icon-72x72.png',
+    './icons/icon-96x96.png',
+    './icons/icon-128x128.png',
+    './icons/icon-144x144.png',
+    './icons/icon-152x152.png',
+    './icons/icon-192x192.png',
+    './icons/icon-384x384.png',
+    './icons/icon-512x512.png'
 ];
 
-// Helper function to check if a URL is valid for caching
+// Helper function to check if URL is valid for caching
 function isValidUrl(url) {
-    try {
-        const urlObj = new URL(url);
-        return ['http:', 'https:'].includes(urlObj.protocol);
-    } catch (e) {
-        return false;
-    }
+    return url.startsWith('http') || url.startsWith('https') || url.startsWith('./') || url.startsWith('/');
 }
 
-self.addEventListener('install', event => {
+// Install event
+self.addEventListener('install', (event) => {
+    console.log('[ServiceWorker] Install');
     event.waitUntil(
         caches.open(CACHE_NAME)
-            .then(cache => {
-                console.log('Opened cache');
+            .then((cache) => {
+                console.log('[ServiceWorker] Caching app shell');
                 return cache.addAll(urlsToCache);
-            })
-            .catch(error => {
-                console.error('Cache installation failed:', error);
             })
     );
 });
 
-self.addEventListener('fetch', event => {
-    // Only handle HTTP/HTTPS requests
+// Activate event
+self.addEventListener('activate', (event) => {
+    console.log('[ServiceWorker] Activate');
+    event.waitUntil(
+        caches.keys().then((keyList) => {
+            return Promise.all(keyList.map((key) => {
+                if (key !== CACHE_NAME) {
+                    console.log('[ServiceWorker] Removing old cache', key);
+                    return caches.delete(key);
+                }
+            }));
+        })
+    );
+    return self.clients.claim();
+});
+
+// Fetch event
+self.addEventListener('fetch', (event) => {
     if (!isValidUrl(event.request.url)) {
+        console.log('[ServiceWorker] Skipping invalid URL:', event.request.url);
         return;
     }
 
     event.respondWith(
         caches.match(event.request)
-            .then(response => {
-                // Cache hit - return response
+            .then((response) => {
                 if (response) {
+                    console.log('[ServiceWorker] Found in cache:', event.request.url);
                     return response;
                 }
 
-                // Clone the request because it's a stream and can only be consumed once
-                const fetchRequest = event.request.clone();
-
-                return fetch(fetchRequest)
-                    .then(response => {
+                return fetch(event.request)
+                    .then((response) => {
                         // Check if we received a valid response
-                        if (!response || response.status !== 200) {
+                        if (!response || response.status !== 200 || response.type !== 'basic') {
                             return response;
                         }
 
-                        // Only cache valid HTTP/HTTPS responses
-                        if (isValidUrl(event.request.url)) {
-                            // Clone the response because it's a stream and can only be consumed once
-                            const responseToCache = response.clone();
+                        // Clone the response
+                        const responseToCache = response.clone();
 
-                            caches.open(CACHE_NAME)
-                                .then(cache => {
-                                    cache.put(event.request, responseToCache)
-                                        .catch(error => {
-                                            console.error('Cache put failed:', error);
-                                        });
-                                })
-                                .catch(error => {
-                                    console.error('Cache open failed:', error);
-                                });
-                        }
+                        caches.open(CACHE_NAME)
+                            .then((cache) => {
+                                console.log('[ServiceWorker] Caching new resource:', event.request.url);
+                                cache.put(event.request, responseToCache);
+                            });
 
                         return response;
                     })
-                    .catch(error => {
-                        console.error('Fetch failed:', error);
+                    .catch((error) => {
+                        console.log('[ServiceWorker] Fetch failed:', error);
                         // You might want to return a custom offline page here
                     });
             })
