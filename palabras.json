@@ -1,0 +1,519 @@
+{
+  "palabras": [
+    {
+      "palabra": "perro",
+      "categoria": "animales",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "bailar",
+      "categoria": "acciones",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "paraguas",
+      "categoria": "objetos",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "astronauta",
+      "categoria": "profesiones",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "biblioteca",
+      "categoria": "lugares",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "fotosíntesis",
+      "categoria": "ciencia",
+      "dificultad": "dificil"
+    },
+    {
+      "palabra": "guitarra",
+      "categoria": "música",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "teléfono",
+      "categoria": "tecnología",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "pizza",
+      "categoria": "comida",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "elefante",
+      "categoria": "animales",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "democracia",
+      "categoria": "conceptos",
+      "dificultad": "dificil"
+    },
+    {
+      "palabra": "pintar",
+      "categoria": "acciones",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "montaña",
+      "categoria": "naturaleza",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "reloj",
+      "categoria": "objetos",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "bombero",
+      "categoria": "profesiones",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "playa",
+      "categoria": "lugares",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "microscopio",
+      "categoria": "ciencia",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "piano",
+      "categoria": "música",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "computadora",
+      "categoria": "tecnología",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "sushi",
+      "categoria": "comida",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "jirafa",
+      "categoria": "animales",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "libertad",
+      "categoria": "conceptos",
+      "dificultad": "dificil"
+    },
+    {
+      "palabra": "correr",
+      "categoria": "acciones",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "volcán",
+      "categoria": "naturaleza",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "tijeras",
+      "categoria": "objetos",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "dentista",
+      "categoria": "profesiones",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "supermercado",
+      "categoria": "lugares",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "gravedad",
+      "categoria": "ciencia",
+      "dificultad": "dificil"
+    },
+    {
+      "palabra": "violín",
+      "categoria": "música",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "robot",
+      "categoria": "tecnología",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "tacos",
+      "categoria": "comida",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "koala",
+      "categoria": "animales",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "justicia",
+      "categoria": "conceptos",
+      "dificultad": "dificil"
+    },
+    {
+      "palabra": "nadar",
+      "categoria": "acciones",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "cascada",
+      "categoria": "naturaleza",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "lámpara",
+      "categoria": "objetos",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "arquitecto",
+      "categoria": "profesiones",
+      "dificultad": "dificil"
+    },
+    {
+      "palabra": "museo",
+      "categoria": "lugares",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "átomo",
+      "categoria": "ciencia",
+      "dificultad": "dificil"
+    },
+    {
+      "palabra": "batería",
+      "categoria": "música",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "saxofón",
+      "categoria": "música",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "smartphone",
+      "categoria": "tecnología",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "paella",
+      "categoria": "comida",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "pingüino",
+      "categoria": "animales",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "amor",
+      "categoria": "emociones",
+      "dificultad": "dificil"
+    },
+    {
+      "palabra": "fútbol",
+      "categoria": "deportes",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "pintura",
+      "categoria": "arte",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "titanic",
+      "categoria": "películas",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "saltar",
+      "categoria": "acciones",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "desierto",
+      "categoria": "naturaleza",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "bailarina",
+      "categoria": "profesiones",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "hospital",
+      "categoria": "lugares",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "evolución",
+      "categoria": "ciencia",
+      "dificultad": "dificil"
+    },
+    {
+      "palabra": "trompeta",
+      "categoria": "música",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "videojuego",
+      "categoria": "tecnología",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "espagueti",
+      "categoria": "comida",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "hipopótamo",
+      "categoria": "animales",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "tristeza",
+      "categoria": "emociones",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "baloncesto",
+      "categoria": "deportes",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "escultura",
+      "categoria": "arte",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "matrix",
+      "categoria": "películas",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "aplaudir",
+      "categoria": "acciones",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "arcoiris",
+      "categoria": "naturaleza",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "mochila",
+      "categoria": "objetos",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "carpintero",
+      "categoria": "profesiones",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "aeropuerto",
+      "categoria": "lugares",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "telescopio",
+      "categoria": "ciencia",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "acordeón",
+      "categoria": "música",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "impresora",
+      "categoria": "tecnología",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "hamburguesa",
+      "categoria": "comida",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "mariposa",
+      "categoria": "animales",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "felicidad",
+      "categoria": "emociones",
+      "dificultad": "dificil"
+    },
+    {
+      "palabra": "tenis",
+      "categoria": "deportes",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "fotografía",
+      "categoria": "arte",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "starwars",
+      "categoria": "películas",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "cocinar",
+      "categoria": "acciones",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "tornado",
+      "categoria": "naturaleza",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "amistad",
+      "categoria": "conceptos",
+      "dificultad": "dificil"
+    },
+    {
+      "palabra": "teléfono",
+      "categoria": "objetos",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "abogado",
+      "categoria": "profesiones",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "zoológico",
+      "categoria": "lugares",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "química",
+      "categoria": "ciencia",
+      "dificultad": "dificil"
+    },
+    {
+      "palabra": "tambor",
+      "categoria": "música",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "internet",
+      "categoria": "tecnología",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "enchiladas",
+      "categoria": "comida",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "tortuga",
+      "categoria": "animales",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "sorpresa",
+      "categoria": "emociones",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "natación",
+      "categoria": "deportes",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "teatro",
+      "categoria": "arte",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "avatar",
+      "categoria": "películas",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "dormir",
+      "categoria": "acciones",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "glaciar",
+      "categoria": "naturaleza",
+      "dificultad": "dificil"
+    },
+    {
+      "palabra": "tiempo",
+      "categoria": "conceptos",
+      "dificultad": "dificil"
+    },
+    {
+      "palabra": "paraguas",
+      "categoria": "objetos",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "veterinario",
+      "categoria": "profesiones",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "biología",
+      "categoria": "ciencia",
+      "dificultad": "dificil"
+    },
+    {
+      "palabra": "flauta",
+      "categoria": "música",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "satélite",
+      "categoria": "tecnología",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "chocolate",
+      "categoria": "comida",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "delfín",
+      "categoria": "animales",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "miedo",
+      "categoria": "emociones",
+      "dificultad": "medio"
+    },
+    {
+      "palabra": "voleibol",
+      "categoria": "deportes",
+      "dificultad": "facil"
+    },
+    {
+      "palabra": "ballet",
+      "categoria": "arte",
+      "dificultad": "medio"
+    }
+  ]
+} 
