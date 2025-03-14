@@ -138,7 +138,7 @@ $(document).ready(function() {
             $('#main-title')
                 .removeClass()
                 .addClass('main-title game-mode text-center animate__animated animate__fadeIn')
-                .text(`Palabra #${wordCounter}`);
+                .text('Generador de palabras');
 
             // Display the word
             $('#word')
