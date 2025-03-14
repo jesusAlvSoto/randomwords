@@ -6,6 +6,7 @@
     <title>Generador de Palabras</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
             --primary-blue: #1e88e5;
@@ -29,6 +30,13 @@
             font-weight: 700;
             font-size: 3.5rem;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        .main-title.game-mode {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            transition: all 0.3s ease;
         }
 
         .description {
@@ -60,29 +68,145 @@
             font-weight: 700;
             text-align: center;
             margin: 2rem 0;
-            padding: 2rem;
+            padding: 2rem 2rem 0.5rem;
             background: white;
             border-radius: 15px;
             box-shadow: 0 8px 16px rgba(0,0,0,0.1);
             display: none;
+            position: relative;
+        }
+
+        .word-text {
+            margin-bottom: 2rem;
+        }
+
+        .word-info {
+            display: flex;
+            justify-content: center;
+            font-size: 0.85rem;
+            color: #666;
+            padding: 0.5rem 1rem;
+            border-top: 1px solid #eee;
         }
 
         .difficulty-selector {
-            max-width: 200px;
-            margin: 0 auto;
+            max-width: 130px;
+            margin: 1rem auto 0;
+            position: relative;
+            text-align: center;
         }
 
-        .form-select {
-            border-radius: 50px;
-            padding: 0.75rem 2rem;
-            border-color: var(--primary-blue);
+        .difficulty-label {
+            display: block;
+            color: var(--dark-blue);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .difficulty-info {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .difficulty-info i {
+            font-size: 1rem;
             color: var(--primary-blue);
-            font-size: 1.1rem;
         }
 
-        .form-select:focus {
+        .past-words-section {
+            margin-top: 2rem;
+            padding: 1rem;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+
+        .past-words-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .past-words-title {
+            color: var(--dark-blue);
+            font-size: 1.1rem;
+            margin: 0;
+        }
+
+        .btn-clear-list {
+            font-size: 0.9rem;
+            padding: 0.25rem 1rem;
+            color: #dc3545;
+            background: none;
+            border: 1px solid #dc3545;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn-clear-list:hover {
+            color: white;
+            background: #dc3545;
+        }
+
+        .past-words-list {
+            max-height: 200px;
+            overflow-y: auto;
+            padding: 0.5rem;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .past-words-list div {
+            padding: 0.25rem 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .dropdown-toggle {
+            width: 100%;
+            border-radius: 50px;
+            padding: 0.4rem 1rem;
+            border: 1px solid var(--primary-blue);
+            color: var(--primary-blue);
+            font-size: 0.9rem;
+            background-color: white;
+            text-align: center;
+        }
+
+        .dropdown-toggle:hover,
+        .dropdown-toggle:focus {
             border-color: var(--dark-blue);
+            color: var(--dark-blue);
             box-shadow: 0 0 0 0.25rem rgba(30, 136, 229, 0.25);
+        }
+
+        .dropdown-menu {
+            width: 100%;
+            border-radius: 10px;
+            border: 1px solid var(--primary-blue);
+            padding: 0.5rem 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .dropdown-item {
+            padding: 0.5rem 1rem;
+            color: var(--primary-blue);
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        .dropdown-item:hover,
+        .dropdown-item:focus {
+            background-color: var(--light-blue);
+            color: var(--dark-blue);
+        }
+
+        .dropdown-item.active {
+            background-color: var(--primary-blue);
+            color: white;
         }
 
         .footer {
@@ -126,34 +250,60 @@
                 font-size: 2.5rem;
             }
 
+            .main-title.game-mode {
+                font-size: 2rem;
+            }
+
             .word-display {
                 font-size: 3rem;
-                padding: 1.5rem;
+                padding: 1.5rem 1.5rem 1rem;
             }
         }
     </style>
 </head>
 <body>
     <div class="container py-5">
+        <h1 class="main-title text-center animate__animated animate__fadeIn">Generador de Palabras</h1>
+        
         <div id="landing-page" class="text-center animate__animated animate__fadeIn">
-            <h1 class="main-title mb-4">Generador de Palabras</h1>
             <p class="description mb-5">¡Diviértete jugando a la mímica con tus amigos! Esta aplicación genera palabras aleatorias para que puedas poner a prueba tus habilidades de actuación y pasar momentos inolvidables.</p>
             <button id="start-btn" class="btn btn-primary animate__animated animate__pulse animate__infinite">Empezar</button>
         </div>
 
         <div id="game-page" class="text-center" style="display: none;">
-            <div class="difficulty-selector mb-4">
-                <select id="difficulty" class="form-select">
-                    <option value="mezcladas">Mezcladas</option>
-                    <option value="facil">Fáciles</option>
-                    <option value="medio">Medias</option>
-                    <option value="dificil">Difíciles</option>
-                </select>
+            <div id="word" class="word-display animate__animated">
+                <div class="word-text"></div>
+                <div class="word-info">
+                    <div class="difficulty-info">
+                        <i class="fas fa-brain"></i>
+                        <span class="difficulty-label"></span>
+                    </div>
+                </div>
             </div>
-
-            <div id="word" class="word-display animate__animated"></div>
             
             <button id="generate-btn" class="btn btn-primary">Genera otra palabra</button>
+            <div class="difficulty-selector">
+                <label class="difficulty-label">Dificultad</label>
+                <div class="dropdown">
+                    <button class="dropdown-toggle" type="button" id="difficulty" data-bs-toggle="dropdown" aria-expanded="false">
+                        Mezcladas
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item active" href="#" data-value="mezcladas">Mezcladas</a></li>
+                        <li><a class="dropdown-item" href="#" data-value="facil">Fáciles</a></li>
+                        <li><a class="dropdown-item" href="#" data-value="medio">Medias</a></li>
+                        <li><a class="dropdown-item" href="#" data-value="dificil">Difíciles</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="past-words-section">
+                <div class="past-words-header">
+                    <h3 class="past-words-title">Palabras pasadas</h3>
+                    <button id="clear-list" class="btn-clear-list">Borrar lista</button>
+                </div>
+                <div id="past-words-list" class="past-words-list"></div>
+            </div>
         </div>
     </div>
 

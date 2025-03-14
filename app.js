@@ -1,10 +1,44 @@
 $(document).ready(function() {
     let words = null;
+    let currentWord = null;
     const STORAGE_KEY = 'usedWords';
     const GITHUB_JSON_URL = 'https://raw.githubusercontent.com/jesusAlvSoto/randomwords/master/palabras.json';
 
     // Initialize used words from localStorage
     let usedWords = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+
+    // Difficulty labels in Spanish
+    const difficultyLabels = {
+        'facil': 'Fácil',
+        'medio': 'Media',
+        'dificil': 'Difícil'
+    };
+
+    // Update past words list display
+    function updatePastWordsList() {
+        const $list = $('#past-words-list');
+        $list.empty();
+        
+        // Show only the words, without additional info
+        const pastWords = usedWords.map(word => `<div>${word}</div>`).reverse();
+        
+        if (pastWords.length === 0) {
+            $list.html('<div class="text-center text-muted">No hay palabras pasadas</div>');
+        } else {
+            $list.html(pastWords.join(''));
+        }
+    }
+
+    // Find word object from words list
+    function findWordObject(palabra) {
+        if (!words) return null;
+        
+        for (const difficulty in words.palabras) {
+            const found = words.palabras[difficulty].find(w => w.palabra === palabra);
+            if (found) return found;
+        }
+        return null;
+    }
 
     // Fetch words from GitHub
     function fetchWords() {
@@ -15,7 +49,7 @@ $(document).ready(function() {
             })
             .catch(error => {
                 console.error('Error fetching words:', error);
-                $('#word').html('<span style="color: red; font-size: 1.5rem;">Error cargando palabras. Por favor, recarga la página.</span>');
+                $('#word .word-text').html('<span style="color: red; font-size: 1.5rem;">Error cargando palabras. Por favor, recarga la página.</span>');
             });
     }
 
@@ -34,6 +68,13 @@ $(document).ready(function() {
             availableWords = words.palabras[difficulty];
         }
 
+        // Add current word to used words if it exists
+        if (currentWord) {
+            usedWords.push(currentWord.palabra);
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(usedWords));
+            updatePastWordsList();
+        }
+
         // Filter out used words
         const unusedWords = availableWords.filter(word => !usedWords.includes(word.palabra));
 
@@ -48,34 +89,46 @@ $(document).ready(function() {
         const randomIndex = Math.floor(Math.random() * unusedWords.length);
         const selectedWord = unusedWords[randomIndex];
 
-        // Add to used words
-        usedWords.push(selectedWord.palabra);
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(usedWords));
-
         return selectedWord;
     }
 
     // Display new word with animation
     function displayNewWord() {
-        const difficulty = $('#difficulty').val();
+        const difficulty = $('#difficulty').data('value') || 'mezcladas';
         const word = getRandomWord(difficulty);
         
         if (word) {
+            currentWord = word;
+            // Display the word
             $('#word')
                 .hide()
-                .text(word.palabra)
                 .removeClass()
-                .addClass('word-display animate__animated animate__bounceIn')
-                .show();
+                .addClass('word-display animate__animated animate__bounceIn');
+
+            $('.word-text').text(word.palabra);
+            $('.difficulty-label').text(difficultyLabels[word.dificultad]);
+
+            $('#word').show();
         }
     }
 
     // Event Handlers
     $('#start-btn').click(function() {
         fetchWords().then(() => {
-            $('#landing-page').hide();
-            $('#game-page').show();
-            displayNewWord();
+            // Animate title to smaller size
+            $('.main-title')
+                .addClass('animate__animated animate__fadeOut')
+                .one('animationend', function() {
+                    $(this)
+                        .removeClass('animate__fadeOut')
+                        .addClass('game-mode animate__fadeIn');
+                });
+
+            $('#landing-page').fadeOut(400, function() {
+                $('#game-page').fadeIn(400);
+                displayNewWord();
+                updatePastWordsList();
+            });
         });
     });
 
@@ -84,20 +137,35 @@ $(document).ready(function() {
     });
 
     $('#difficulty').change(function() {
-        displayNewWord();
+        if ($('#game-page').is(':visible')) {
+            displayNewWord();
+        }
     });
 
-    $('#clear-storage').click(function() {
+    $('#clear-storage, #clear-list').click(function() {
         localStorage.removeItem(STORAGE_KEY);
         usedWords = [];
-        $(this).addClass('animate__animated animate__fadeOut');
+        currentWord = null;
+        updatePastWordsList();
+        $(this).addClass('animate__animated animate__fadeIn');
         setTimeout(() => {
-            $(this).text('¡Almacenamiento borrado!');
-            $(this).removeClass('animate__fadeOut').addClass('animate__fadeIn');
-            setTimeout(() => {
-                $(this).text('Borrar almacenamiento local');
-                $(this).removeClass('animate__fadeIn');
-            }, 2000);
+            $(this).removeClass('animate__fadeIn');
         }, 500);
+    });
+
+    // Handle dropdown item clicks
+    $('.dropdown-item').click(function(e) {
+        e.preventDefault();
+        const value = $(this).data('value');
+        const text = $(this).text();
+        
+        // Update button text and value
+        $('#difficulty')
+            .text(text)
+            .data('value', value);
+        
+        // Update active state
+        $('.dropdown-item').removeClass('active');
+        $(this).addClass('active');
     });
 }); 
