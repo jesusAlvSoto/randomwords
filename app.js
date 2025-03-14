@@ -1,4 +1,30 @@
 $(document).ready(function() {
+    // Player counter logic
+    function getRandomNumber(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    let isIncreasing = true;
+
+    function updatePlayerCount() {
+        const currentCount = parseInt($('#players-count').text());
+        const change = getRandomNumber(1, 20);
+        const newCount = isIncreasing ? currentCount + change : currentCount - change;
+        
+        // Ensure count stays within bounds (1000-5000)
+        const boundedCount = Math.min(Math.max(newCount, 1000), 5000);
+        $('#players-count').text(boundedCount);
+        
+        // Toggle between increasing and decreasing
+        isIncreasing = !isIncreasing;
+    }
+
+    // Initialize with random number between 1000 and 5000
+    $('#players-count').text(getRandomNumber(1000, 5000));
+
+    // Update count every 10 seconds
+    setInterval(updatePlayerCount, 10000);
+
     let words = null;
     let currentWord = null;
     let wordCounter = 0;
