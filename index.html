@@ -431,12 +431,9 @@
     <script src="app.js"></script>
 
     <script>
-        console.log("hostname="+window.location.hostname);
-        const scriptUrl = scripts[window.location.hostname];
-        console.log("scriptUrl="+scriptUrl);
-    
       const hostname = window.location.hostname;
-
+        console.log("hostname="+hostname);
+        
       if (hostname === "generadordepalabras.com") {
         // Create first script
         const script1 = document.createElement("script");
