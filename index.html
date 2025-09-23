@@ -452,10 +452,18 @@
         // Append to <head>
         document.head.appendChild(script1);
         document.head.appendChild(script2);
+      } else {
+          if (hostname === "palabrasrandom.com") {
+                const umamiscript = document.createElement("script");
+                umamiscript.src = "https://cloud.umami.is/script.js";
+                umamiscript.defer = true;
+                umamiscript.setAttribute("data-website-id", "f5462160-3d0e-4e50-856d-60a9d3fb822f");
+                
+                document.head.appendChild(umamiscript);
+          } else {
+                console.log("---------> Failed to load analytics script!! <----------");
+            }
       }
-        else {
-            console.log("Failed to load script----------");
-        }
     </script>
     
     <script defer src="https://cloud.umami.is/script.js" data-website-id="f5462160-3d0e-4e50-856d-60a9d3fb822f"></script>
