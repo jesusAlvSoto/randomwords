@@ -432,7 +432,6 @@
 
     <script>
       const hostname = window.location.hostname;
-        console.log("hostname="+hostname);
         
       if (hostname === "generadordepalabras.com") {
         // Create first script
@@ -535,7 +534,17 @@
         document
             .getElementById("start-btn")
             .addEventListener("click", function(){
-                sa_event("empezar_click")
+                // Simple Analytics (only if available)
+                if (typeof sa_event === "function") {
+                    sa_event("empezar_click");
+                    console.log("Empezar_click sent to simpleanalytics");
+                }
+            
+                // Umami (only if available)
+                if (typeof umami === "function") {
+                    umami("empezar_click");
+                    console.log("Empezar_click sent to unami");
+                }
             });
         
         document
