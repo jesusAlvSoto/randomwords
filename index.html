@@ -432,6 +432,7 @@
 
     <script>
       const hostname = window.location.hostname;
+        console.log("Hostname="+hostname);
         
       if (hostname === "generadordepalabras.com") {
         // Create first script
@@ -448,6 +449,8 @@
         // Append to <head>
         document.head.appendChild(script1);
         document.head.appendChild(script2);
+
+          console.log("Loaded Simpleanalytics scripts");
       } else {
           if (hostname === "www.palabrasrandom.com") {
                 const umamiscript = document.createElement("script");
@@ -456,6 +459,7 @@
                 umamiscript.setAttribute("data-website-id", "f5462160-3d0e-4e50-856d-60a9d3fb822f");
                 
                 document.head.appendChild(umamiscript);
+                console.log("Loaded Unami script");
           } else {
                 console.log("---------> Failed to load analytics script!! <----------");
             }
