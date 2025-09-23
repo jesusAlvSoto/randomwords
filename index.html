@@ -431,27 +431,33 @@
     <script src="app.js"></script>
 
     <script>
-      const scripts = {
-        "generadordepalabras.com": "simpleanalytics.js",
-        "palabrasrandom": "umami.js"
-      };
         console.log("hostname="+window.location.hostname);
         const scriptUrl = scripts[window.location.hostname];
         console.log("scriptUrl="+scriptUrl);
     
-      if (scriptUrl) {
-        const script = document.createElement("script");
-        script.src = scriptUrl;
-        script.async = true;
-        console.log(script);
+      const hostname = window.location.hostname;
+
+      if (hostname === "generadordepalabras.com") {
+        // Create first script
+        const script1 = document.createElement("script");
+        script1.src = "https://scripts.simpleanalyticscdn.com/latest.js";
+        script1.async = true;
+        script1.setAttribute("data-collect-dnt", "true");
+    
+        // Create second script
+        const script2 = document.createElement("script");
+        script2.src = "https://scripts.simpleanalyticscdn.com/auto-events.js";
+        script2.async = true;
+    
+        // Append to <head>
+        document.head.appendChild(script1);
+        document.head.appendChild(script2);
       }
         else {
             console.log("Failed to load script----------");
         }
     </script>
     
-    <script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-    <script async src="https://scripts.simpleanalyticscdn.com/auto-events.js"></script>
     <script defer src="https://cloud.umami.is/script.js" data-website-id="f5462160-3d0e-4e50-856d-60a9d3fb822f"></script>
     <script>
         // Register Service Worker
