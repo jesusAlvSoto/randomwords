@@ -435,8 +435,9 @@
         "generadordepalabras.com": "simpleanalytics.js",
         "palabrasrandom": "umami.js"
       };
-
-      const scriptUrl = scripts[window.location.hostname];
+        console.log("hostname="+window.location.hostname);
+        const scriptUrl = scripts[window.location.hostname];
+        console.log("scriptUrl="+scriptUrl);
     
       if (scriptUrl) {
         const script = document.createElement("script");
