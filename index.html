@@ -543,10 +543,10 @@
                 }
             
                 // Umami (only if available)
-                if (typeof umami === "function") {
-                    umami("empezar_click");
-                    console.log("Empezar_click sent to unami");
-                }
+                if (typeof umami === "object" && typeof umami.track === "function") {
+                    umami.track("empezar_click");
+                    console.log("Empezar_click sent to umami");
+                  }
             });
         
         document
