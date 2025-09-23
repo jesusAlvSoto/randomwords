@@ -546,37 +546,82 @@
                 if (typeof umami === "object" && typeof umami.track === "function") {
                     umami.track("empezar_click");
                     console.log("Empezar_click sent to umami");
-                  }
+                }
             });
         
         document
             .getElementById("generate-btn")
             .addEventListener("click", function(){
-                sa_event("genera_palabra_click")
+                if (typeof sa_event === "function") {
+                    sa_event("genera_palabra_click");
+                    console.log("genera_palabra_click sent to simpleanalytics");
+                }
+            
+                // Umami (only if available)
+                if (typeof umami === "object" && typeof umami.track === "function") {
+                    umami.track("genera_palabra_click");
+                    console.log("genera_palabra_click sent to umami");
+                }
             });
         
         document
             .getElementById("difficulty")
             .addEventListener("click", function(){
-                sa_event("cambia_dificultad_click")
+                if (typeof sa_event === "function") {
+                    sa_event("cambia_dificultad_click");
+                    console.log("cambia_dificultad_click sent to simpleanalytics");
+                }
+            
+                // Umami (only if available)
+                if (typeof umami === "object" && typeof umami.track === "function") {
+                    umami.track("cambia_dificultad_click");
+                    console.log("cambia_dificultad_click sent to umami");
+                }
             });
         
         document
             .getElementById("clear-list")
             .addEventListener("click", function(){
-                sa_event("borrar_lista_click")
+                if (typeof sa_event === "function") {
+                    sa_event("borrar_lista_click");
+                    console.log("borrar_lista_click sent to simpleanalytics");
+                }
+            
+                // Umami (only if available)
+                if (typeof umami === "object" && typeof umami.track === "function") {
+                    umami.track("borrar_lista_click");
+                    console.log("borrar_lista_click sent to umami");
+                }
             });
         
         document
             .getElementById("yisus-twitter")
             .addEventListener("click", function(){
-                sa_event("yisus_twitter_click")
+                if (typeof sa_event === "function") {
+                    sa_event("yisus_twitter_click");
+                    console.log("yisus_twitter_click sent to simpleanalytics");
+                }
+            
+                // Umami (only if available)
+                if (typeof umami === "object" && typeof umami.track === "function") {
+                    umami.track("yisus_twitter_click");
+                    console.log("yisus_twitter_click sent to umami");
+                }
             });
         
         document
             .getElementById("install-button")
             .addEventListener("click", function(){
-                sa_event("install_PWA_click")
+                if (typeof sa_event === "function") {
+                    sa_event("install_PWA_click");
+                    console.log("install_PWA_click sent to simpleanalytics");
+                }
+            
+                // Umami (only if available)
+                if (typeof umami === "object" && typeof umami.track === "function") {
+                    umami.track("install_PWA_click");
+                    console.log("install_PWA_click sent to umami");
+                }
             });
     </script>
 </body>
