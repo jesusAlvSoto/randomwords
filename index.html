@@ -584,7 +584,7 @@
             }
         });
 
-        // Feedback / Telegram Logic
+// Feedback / Telegram Logic
         $(document).ready(function() {
             const BOT_TOKEN = "8520210724:AAGLJuErz-yZvVw-NuVOXyCm3bFbOWcopnM";
             const CHAT_ID = "1117646010";
@@ -595,9 +595,18 @@
                 const comment = $('#feedbackComment').val();
                 const btn = $(this);
 
-                // Validación simple
+                // 1. Validación de campos vacíos
                 if (!email || !comment) {
                     alert('Por favor, rellena el email y el comentario.');
+                    return;
+                }
+
+                // 2. Validación de formato de email (NUEVO)
+                // Esta expresión regular verifica que haya texto + @ + texto + . + texto
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                
+                if (!emailRegex.test(email)) {
+                    alert('Por favor, introduce una dirección de email válida.');
                     return;
                 }
 
