@@ -81,7 +81,7 @@ $(document).ready(function() {
             })
             .catch(error => {
                 console.error('Error fetching words:', error);
-                $('#word .word-text').html('<span style="color: red; font-size: 1.5rem;">Error cargando palabras. Por favor, recarga la página.</span>');
+                $('#word .word-text').html('<span style="color: red; font-size: 1rem;">Lo lamentamos, actualemnte hay muchos jugadores online y no podemos cargar más palabras. Los técnicos están ampliando la capacidad de los sevidores. Por favor, refresca la página.</span>');
             });
     }
 
