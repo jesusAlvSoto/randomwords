@@ -29,7 +29,7 @@ $(document).ready(function() {
     let currentWord = null;
     let wordCounter = 0;
     const STORAGE_KEY = 'usedWords';
-    const GITHUB_JSON_URL = 'https://raw.githubusercontent.com/jesusAlvSoto/randomwords/master/palabras.json';
+    const GITHUB_JSON_URL = 'palabras.json';
 
     // Initialize used words from localStorage
     let usedWords = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
