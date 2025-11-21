@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0F31163DKF"></script>
+    <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-0F31163DKF');
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Palabras Aleatorias - Juegos Familiares</title>
+    <meta name="description" content="Generador de palabras aleatorias para juegos infantiles y familiares. Perfecto para mímica, adivinanzas y diversión en familia. ¡Juega y diviértete!">
+    <meta name="keywords" content="generador palabras aleatorias, juegos infantiles, juegos familiares, mímica, diversión familiar, palabras para jugar">
+    <meta property="og:title" content="Generador de Palabras Aleatorias - Juegos Familiares">
+    <meta property="og:description" content="Generador de palabras aleatorias para juegos infantiles y familiares. Perfecto para mímica, adivinanzas y diversión en familia.">
+    <meta property="og:type" content="website">
+    <meta name="robots" content="index, follow">
+    
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#1e88e5">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Palabras Random">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <script>window.sa_event=window.sa_event||function(){var a=[].slice.call(arguments);window.sa_event.q?window.sa_event.q.push(a):window.sa_event.q=[a]};</script>
+
+    <style>
+        :root {
+            --primary-blue: #1e88e5;
+            --secondary-blue: #64b5f6;
+            --light-blue: #bbdefb;
+            --dark-blue: #0d47a1;
+        }
+
+        body {
+            background: linear-gradient(135deg, var(--light-blue) 0%, white 100%);
+            min-height: 100vh;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            padding-bottom: 60px; /* Espacio para el footer fijo */
+        }
+
+        .container {
+            max-width: 800px;
+        }
+
+        .main-title {
+            color: var(--dark-blue);
+            font-weight: 700;
+            font-size: 3.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        .main-title.game-mode {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .description {
+            color: var(--primary-blue);
+            font-size: 1.25rem;
+            line-height: 1.6;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-blue);
+            border-color: var(--primary-blue);
+            padding: 0.75rem 2rem;
+            font-size: 1.25rem;
+            border-radius: 50px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--dark-blue);
+            border-color: var(--dark-blue);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+        }
+
+        .word-display {
+            font-size: 4rem;
+            color: var(--dark-blue);
+            font-weight: 700;
+            text-align: center;
+            margin: 2rem 0;
+            padding: 1.5rem 2rem 0;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            display: none;
+            position: relative;
+            min-height: 150px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .word-text {
+            margin-bottom: 0.5rem;
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .word-info {
+            display: flex;
+            justify-content: center;
+            font-size: 0.85rem;
+            color: #666;
+            padding: 0.5rem 1rem;
+        }
+
+        .difficulty-selector {
+            max-width: 160px;
+            margin: 1rem auto 0;
+            position: relative;
+            text-align: center;
+        }
+
+        .difficulty-label {
+            display: block;
+            color: var(--dark-blue);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .difficulty-info {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .difficulty-info i {
+            font-size: 1rem;
+            color: var(--primary-blue);
+        }
+
+        .past-words-section {
+            margin-top: 2rem;
+            padding: 1rem;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+
+        .past-words-header {
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .past-words-title {
+            color: var(--dark-blue);
+            font-size: 1.1rem;
+            margin: 0;
+            margin-bottom: 0.25rem;
+        }
+
+        .btn-clear-list {
+            font-size: 0.8rem;
+            color: #dc3545;
+            background: none;
+            border: none;
+            padding: 0;
+            text-decoration: underline;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .btn-clear-list:hover {
+            color: #bb2d3b;
+            background: none;
+        }
+
+        .past-words-list {
+            padding: 0.5rem;
+            font-size: 0.9rem;
+            color: #666;
+            text-align: center;
+        }
+
+        .past-words-list div {
+            padding: 0.25rem 0;
+            text-align: center;
+        }
+
+        .past-words-list div:not(:last-child) {
+            border-bottom: 1px solid #eee;
+        }
+
+        .dropdown-toggle {
+            width: 100%;
+            border-radius: 50px;
+            padding: 0.4rem 1rem;
+            border: 1px solid var(--primary-blue);
+            color: var(--primary-blue);
+            font-size: 0.9rem;
+            background-color: white;
+            text-align: center;
+        }
+
+        .dropdown-toggle:hover,
+        .dropdown-toggle:focus {
+            border-color: var(--dark-blue);
+            color: var(--dark-blue);
+            box-shadow: 0 0 0 0.25rem rgba(30, 136, 229, 0.25);
+        }
+
+        .dropdown-menu {
+            width: 100%;
+            border-radius: 10px;
+            border: 1px solid var(--primary-blue);
+            padding: 0.5rem 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .dropdown-item {
+            padding: 0.5rem 1rem;
+            color: var(--primary-blue);
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        .dropdown-item:hover,
+        .dropdown-item:focus {
+            background-color: var(--light-blue);
+            color: var(--dark-blue);
+        }
+
+        .dropdown-item.active {
+            background-color: var(--primary-blue);
+            color: white;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            padding: 0.8rem;
+            background: var(--dark-blue);
+            backdrop-filter: blur(5px);
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            z-index: 1050;
+        }
+
+        .footer:hover {
+            background-color: var(--primary-blue);
+        }
+
+        .footer p {
+            font-size: 0.9rem;
+            color: white;
+            margin: 0;
+            font-weight: 500;
+        }
+
+        .footer i {
+            margin-left: 8px;
+        }
+
+        .btn-clear-storage {
+            font-size: 0.9rem;
+            color: var(--primary-blue);
+            text-decoration: underline;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-clear-storage:hover {
+            color: var(--dark-blue);
+        }
+
+        /* Modal Styling to match app aesthetic */
+        .modal-content {
+            border-radius: 15px;
+            border: none;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .modal-header {
+            border-bottom: 1px solid var(--light-blue);
+            color: var(--dark-blue);
+        }
+
+        .modal-title {
+            font-weight: 700;
+        }
+
+        .modal-footer {
+            border-top: none;
+        }
+
+        .form-control {
+            border-radius: 50px;
+            padding: 0.75rem 1.5rem;
+            border: 1px solid var(--light-blue);
+            margin-bottom: 1rem;
+        }
+
+        .form-control:focus {
+            border-color: var(--primary-blue);
+            box-shadow: 0 0 0 0.25rem rgba(30, 136, 229, 0.25);
+        }
+
+        textarea.form-control {
+            border-radius: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .main-title {
+                font-size: 2rem;
+            }
+
+            .main-title.game-mode {
+                font-size: 1.8rem;
+            }
+
+            .word-display {
+                font-size: 3rem;
+                padding: 1.5rem 1.5rem 1rem;
+            }
+        }
+
+        .word-number {
+            color: var(--primary-blue);
+            font-size: 0.9em;
+            margin-right: 0.5rem;
+        }
+
+        .players-counter {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            color: var(--dark-blue);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            backdrop-filter: blur(5px);
+            margin: -1rem auto 2rem;
+            width: fit-content;
+        }
+
+        .players-counter i {
+            color: var(--primary-blue);
+            margin-right: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .players-counter {
+                font-size: 0.8rem;
+                padding: 0.4rem 1.2rem;
+                min-width: 280px;
+            }
+        }
+
+        .install-button {
+            position: fixed;
+            bottom: 80px; /* Movido un poco más arriba por si acaso el footer tapa algo en móviles */
+            right: 20px;
+            background-color: var(--primary-blue);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 50px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            display: none;
+            z-index: 1000;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .install-button:hover {
+            background-color: var(--dark-blue);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .install-button i {
+            margin-right: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .install-button {
+                bottom: 90px;
+                right: 50%;
+                transform: translateX(50%);
+                font-size: 0.85rem;
+            }
+            
+            .install-button:hover {
+                transform: translateX(50%) translateY(-2px);
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <button id="install-button" class="install-button">
+        <i class="fas fa-download"></i>Instalar aplicación
+    </button>
+    <div class="container py-5">
+        <h1 id="main-title" class="main-title text-center animate__animated animate__fadeIn">Generador de palabras</h1>
+        <div class="players-counter">
+            <i class="fas fa-users"></i>
+            <span id="players-count">0</span> personas jugando ahora
+        </div>
+        
+        <div id="landing-page" class="text-center animate__animated animate__fadeIn">
+            <p class="description mb-4">Un generador de palabras aleatorias fácil de usar, ideal para juegos como Pictionary, mímica y adivinanzas.</p>
+            <button id="start-btn" class="btn btn-primary animate__animated animate__pulse animate__infinite">Empezar</button>
+        </div>
+
+        <div id="game-page" class="text-center" style="display: none;">
+            <div id="word" class="word-display animate__animated">
+                <div class="word-text"></div>
+                <div class="word-info">
+                    <div class="difficulty-info">
+                        <i class="fas fa-brain"></i>
+                        <span class="word-difficulty-label"></span>
+                    </div>
+                </div>
+            </div>
+            
+            <button id="generate-btn" class="btn btn-primary">Genera otra palabra</button>
+            <div class="difficulty-selector">
+                <div class="dropdown">
+                    <button class="dropdown-toggle" type="button" id="difficulty" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dificultad mixta
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item active" href="#" data-value="mezcladas">Dificultad mixta</a></li>
+                        <li><a class="dropdown-item" href="#" data-value="facil">Dificultad: Fácil</a></li>
+                        <li><a class="dropdown-item" href="#" data-value="medio">Dificultad: Media</a></li>
+                        <li><a class="dropdown-item" href="#" data-value="dificil">Dificultad: Difícil</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="past-words-section">
+                <div class="past-words-header">
+                    <h3 class="past-words-title">Palabras pasadas</h3>
+                    <button id="clear-list" class="btn-clear-list" style="display: none;">Borrar lista</button>
+                </div>
+                <div id="past-words-list" class="past-words-list"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Clickable -->
+    <footer class="footer" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col text-center">
+                    <p class="mb-0">Mándanos tus sugerencias y comentarios pincha aquí <i class="fas fa-comment-dots"></i></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal de Sugerencias -->
+    <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="feedbackModalLabel">Sugerencias y Comentarios</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="feedbackForm">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="feedbackName" placeholder="Nombre (opcional)">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="feedbackEmail" placeholder="Email (obligatorio)" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="feedbackComment" rows="4" placeholder="Comentario (obligatorio)" required></textarea>
+                        </div>
+                    </div>
+                    <div id="feedbackSuccessMessage" class="text-center py-4" style="display: none;">
+                        <i class="fas fa-check-circle text-success mb-3" style="font-size: 3rem;"></i>
+                        <h5 class="text-success">¡Mensaje enviado!</h5>
+                        <p>Gracias por tu aportación!</p>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-primary w-100" id="sendFeedbackBtn">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+    <script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+    <script async src="https://scripts.simpleanalyticscdn.com/auto-events.js"></script>
+    <script>
+        // Register Service Worker
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(registration => {
+                        console.log('ServiceWorker registration successful');
+                    })
+                    .catch(err => {
+                        console.log('ServiceWorker registration failed: ', err);
+                    });
+            });
+        }
+
+        // PWA Install Prompt
+        let deferredPrompt;
+        const installButton = document.getElementById('install-button');
+
+        // Initially hide the install button
+        if (installButton) {
+            installButton.style.display = 'none';
+        }
+
+        // Listen for the beforeinstallprompt event
+        window.addEventListener('beforeinstallprompt', (e) => {
+            console.log('beforeinstallprompt event fired');
+            // Store the event for later use
+            deferredPrompt = e;
+            
+            // Show the install button
+            if (installButton) {
+                installButton.style.display = 'block';
+            }
+        });
+
+        // Handle the install button click
+        if (installButton) {
+            installButton.addEventListener('click', async () => {
+                console.log('Install button clicked');
+                if (!deferredPrompt) {
+                    console.log('No installation prompt available');
+                    return;
+                }
+
+                // Show the installation prompt
+                try {
+                    const result = await deferredPrompt.prompt();
+                    console.log('Install prompt result:', result);
+                    
+                    // Reset the deferred prompt variable
+                    deferredPrompt = null;
+                    
+                    // Hide the install button
+                    installButton.style.display = 'none';
+                } catch (error) {
+                    console.error('Error showing install prompt:', error);
+                }
+            });
+        }
+
+        // Hide the install button if the app is already installed
+        window.addEventListener('appinstalled', () => {
+            console.log('App was installed');
+            if (installButton) {
+                installButton.style.display = 'none';
+            }
+        });
+
+        // Feedback / Telegram Logic
+        $(document).ready(function() {
+            const BOT_TOKEN = "8520210724:AAGLJuErz-yZvVw-NuVOXyCm3bFbOWcopnM";
+            const CHAT_ID = "1117646010";
+
+            $('#sendFeedbackBtn').on('click', function() {
+                const name = $('#feedbackName').val() || 'Anónimo';
+                const email = $('#feedbackEmail').val();
+                const comment = $('#feedbackComment').val();
+                const btn = $(this);
+
+                // Validación simple
+                if (!email || !comment) {
+                    alert('Por favor, rellena el email y el comentario.');
+                    return;
+                }
+
+                // Estado de carga
+                const originalText = btn.text();
+                btn.prop('disabled', true).html('<i class="fas fa-spinner fa-spin"></i> Enviando...');
+
+                const message = `📝 *Nueva Sugerencia*\n\n👤 *Nombre:* ${name}\n📧 *Email:* ${email}\n💬 *Comentario:* ${comment}`;
+
+                $.ajax({
+                    url: `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`,
+                    method: 'POST',
+                    data: {
+                        chat_id: CHAT_ID,
+                        text: message,
+                        parse_mode: 'Markdown'
+                    },
+                    success: function(response) {
+                        // Mostrar mensaje de éxito
+                        $('#feedbackForm').hide();
+                        $('#feedbackSuccessMessage').fadeIn();
+                        btn.hide(); // Ocultar botón de enviar
+
+                        // Cerrar modal después de 2 segundos
+                        setTimeout(function() {
+                            $('#feedbackModal').modal('hide');
+                            
+                            // Resetear formulario para la próxima vez
+                            setTimeout(function() {
+                                $('#feedbackForm').show();
+                                $('#feedbackSuccessMessage').hide();
+                                $('#feedbackName').val('');
+                                $('#feedbackEmail').val('');
+                                $('#feedbackComment').val('');
+                                btn.text(originalText).prop('disabled', false).show();
+                            }, 500); // Esperar a que termine la animación de cierre
+                        }, 2000);
+                    },
+                    error: function(err) {
+                        console.error('Error enviando a Telegram:', err);
+                        alert('Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo.');
+                        btn.text(originalText).prop('disabled', false);
+                    }
+                });
+            });
+        });
+
+        //Register clicks in simpleanalytics
+        document
+            .getElementById("start-btn")
+            .addEventListener("click", function(){
+                sa_event("empezar_click")
+            });
+        
+        document
+            .getElementById("generate-btn")
+            .addEventListener("click", function(){
+                sa_event("genera_palabra_click")
+            });
+        
+        document
+            .getElementById("difficulty")
+            .addEventListener("click", function(){
+                sa_event("cambia_dificultad_click")
+            });
+        
+        document
+            .getElementById("clear-list")
+            .addEventListener("click", function(){
+                sa_event("borrar_lista_click")
+            });
+        
+        // Evento para el nuevo footer
+        document
+            .querySelector(".footer")
+            .addEventListener("click", function(){
+                sa_event("footer_feedback_click")
+            });
+        
+        document
+            .getElementById("install-button")
+            .addEventListener("click", function(){
+                sa_event("install_PWA_click")
+            });
+    </script>
+</body>
+</html>
