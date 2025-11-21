@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <script
+      src="https://js.sentry-cdn.com/0fa112fca0875b1f46b3f3be467cfd10.min.js"
+      crossorigin="anonymous"
+    ></script>
+    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0F31163DKF"></script>
     <script>
@@ -683,7 +688,12 @@
             .addEventListener("click", function(){
                 sa_event("install_PWA_click")
             });
+
+        // Send a test metric before calling undefined function
+  Sentry.metrics.count('test_counter', 1);
+  myUndefinedFunction();
         
     </script>
+    
 </body>
 </html>
