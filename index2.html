@@ -468,7 +468,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col text-center">
-                    <p class="mb-0">Mándanos tus sugerencias y comentarios pincha aquí <i class="fas fa-comment-dots"></i></p>
+                    <p class="mb-0"><i class="fas fa-comment-dots"></i> ¿Tienes sugerencias? Envíanos tu mensaje aquí</p>
                 </div>
             </div>
         </div>
@@ -671,6 +671,12 @@
             .querySelector(".footer")
             .addEventListener("click", function(){
                 sa_event("footer_feedback_click")
+            });
+
+        document
+            .getElementById("sendFeedbackBtn")
+            .addEventListener("click", function(){
+                sa_event("enviar_comentario_click")
             });
         
         document
