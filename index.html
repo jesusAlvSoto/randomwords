@@ -659,24 +659,28 @@
             .getElementById("start-btn")
             .addEventListener("click", function(){
                 sa_event("empezar_click")
+                gtag("event", "empezar_click");
             });
         
         document
             .getElementById("generate-btn")
             .addEventListener("click", function(){
                 sa_event("genera_palabra_click")
+                gtag("event", "genera_palabra_click");
             });
         
         document
             .getElementById("difficulty")
             .addEventListener("click", function(){
                 sa_event("cambia_dificultad_click")
+                gtag("event", "cambia_dificultad_click");
             });
         
         document
             .getElementById("clear-list")
             .addEventListener("click", function(){
                 sa_event("borrar_lista_click")
+                gtag("event", "borrar_lista_click");
             });
         
         // Evento para el nuevo footer
@@ -684,18 +688,21 @@
             .querySelector(".footer")
             .addEventListener("click", function(){
                 sa_event("footer_feedback_click")
+                gtag("event", "footer_feedback_click");
             });
 
         document
             .getElementById("sendFeedbackBtn")
             .addEventListener("click", function(){
                 sa_event("enviar_comentario_click")
+                gtag("event", "enviar_comentario_click");
             });
         
         document
             .getElementById("install-button")
             .addEventListener("click", function(){
                 sa_event("install_PWA_click")
+                gtag("event", "install_PWA_click");
             });
         
     </script>
