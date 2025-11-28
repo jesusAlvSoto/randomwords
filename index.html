@@ -472,7 +472,8 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col text-center">
-                    <p class="mb-0"><i class="fas fa-comment-dots"></i> ¿Tienes sugerencias? Envíanos tu mensaje aquí</p>
+                    <p class="mb-0"><i class="fas fa-comment-dots"></i> ¿Tienes sugerencias? Mándanos tu mensaje por <a href="https://twitter.com/generapalabras" target="_blank" title="Ir al perfil de X de @generapalabras">X <i class="bi bi-twitter text-blue-500 mx-2"></i></a></p>
+
                 </div>
             </div>
         </div>
@@ -582,76 +583,6 @@
             if (installButton) {
                 installButton.style.display = 'none';
             }
-        });
-
-// Feedback / Telegram Logic
-        $(document).ready(function() {
-            const BOT_TOKEN = "8520210724:AAGLJuErz-yZvVw-NuVOXyCm3bFbOWcopnM";
-            const CHAT_ID = "1117646010";
-
-            $('#sendFeedbackBtn').on('click', function() {
-                const name = $('#feedbackName').val() || 'Anónimo';
-                const email = $('#feedbackEmail').val();
-                const comment = $('#feedbackComment').val();
-                const btn = $(this);
-
-                // 1. Validación de campos vacíos
-                if (!email || !comment) {
-                    alert('Por favor, rellena el email y el comentario.');
-                    return;
-                }
-
-                // 2. Validación de formato de email (NUEVO)
-                // Esta expresión regular verifica que haya texto + @ + texto + . + texto
-                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-                
-                if (!emailRegex.test(email)) {
-                    alert('Por favor, introduce una dirección de email válida.');
-                    return;
-                }
-
-                // Estado de carga
-                const originalText = btn.text();
-                btn.prop('disabled', true).html('<i class="fas fa-spinner fa-spin"></i> Enviando...');
-
-                const message = `📝 *Nueva Sugerencia*\n\n👤 *Nombre:* ${name}\n📧 *Email:* ${email}\n💬 *Comentario:* ${comment}`;
-
-                $.ajax({
-                    url: `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`,
-                    method: 'POST',
-                    data: {
-                        chat_id: CHAT_ID,
-                        text: message,
-                        parse_mode: 'Markdown'
-                    },
-                    success: function(response) {
-                        // Mostrar mensaje de éxito
-                        $('#feedbackForm').hide();
-                        $('#feedbackSuccessMessage').fadeIn();
-                        btn.hide(); // Ocultar botón de enviar
-
-                        // Cerrar modal después de 2 segundos
-                        setTimeout(function() {
-                            $('#feedbackModal').modal('hide');
-                            
-                            // Resetear formulario para la próxima vez
-                            setTimeout(function() {
-                                $('#feedbackForm').show();
-                                $('#feedbackSuccessMessage').hide();
-                                $('#feedbackName').val('');
-                                $('#feedbackEmail').val('');
-                                $('#feedbackComment').val('');
-                                btn.text(originalText).prop('disabled', false).show();
-                            }, 500); // Esperar a que termine la animación de cierre
-                        }, 2000);
-                    },
-                    error: function(err) {
-                        console.error('Error enviando a Telegram:', err);
-                        alert('Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo.');
-                        btn.text(originalText).prop('disabled', false);
-                    }
-                });
-            });
         });
 
         //Register clicks in simpleanalytics
