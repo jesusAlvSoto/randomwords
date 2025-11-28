@@ -44,7 +44,7 @@
             --primary-blue: #1e88e5;
             --secondary-blue: #64b5f6;
             --light-blue: #bbdefb;
-            --dark-blue: #0d47a1;
+            --dark-blue: #0b3c8a;
         }
 
         body {
@@ -278,6 +278,18 @@
             margin-left: 8px;
         }
 
+        
+        .footer a svg {
+            fill: white; /* icono siempre blanco */
+            margin-left: 4px; /* se acerca al texto */
+            vertical-align: middle;
+            transition: transform 0.15s ease-in-out;
+        }
+        
+        .footer a:hover svg {
+            transform: translateX(1px); /* ligero feedback visual */
+        }
+
         .btn-clear-storage {
             font-size: 0.9rem;
             color: var(--primary-blue);
@@ -476,12 +488,12 @@
                         ¿Tienes sugerencias? Mándanos tu mensaje en 
                         <a href="https://twitter.com/generapalabras" target="_blank" 
                            title="Ir al perfil de X de @generapalabras" 
-                           class="text-decoration-none ms-1 align-middle">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" 
-                                 aria-hidden="true" class="align-text-bottom">
+                           class="text-decoration-none align-middle">
+                            <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
                                 <path d="M18.36 2H21l-6.44 7.04L22 22h-5.77l-4.53-5.94L6.39 22H3.75l6.86-7.86L2 2h5.9l4.07 5.39L18.36 2zm-1.04 18.27h1.63L9.48 4.08H7.79l9.53 16.19z"/>
                             </svg>
                         </a>
+
                     </p>
                 </div>
             </div>
