@@ -278,12 +278,13 @@
             margin-left: 8px;
         }
 
-        
         .footer a svg {
-            fill: white; /* icono siempre blanco */
-            margin-left: 4px; /* se acerca al texto */
-            vertical-align: middle;
-            transition: transform 0.15s ease-in-out;
+            fill: white;
+            margin-left: 4px;
+            height: 0.95em; /* se adapta dinámicamente al tamaño del texto */
+            width: auto;
+            vertical-align: -0.125em; /* alineación fina con línea base */
+            display: inline-block; /* asegura comportamiento como icono inline */
         }
         
         .footer a:hover svg {
