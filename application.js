@@ -8,22 +8,22 @@ $(document).ready(function() {
 
     function updatePlayerCount() {
         const currentCount = parseInt($('#players-count').text());
-        const change = getRandomNumber(1, 20);
+        const change = getRandomNumber(1, 5);
         const newCount = isIncreasing ? currentCount + change : currentCount - change;
         
-        // Ensure count stays within bounds (1000-5000)
-        const boundedCount = Math.min(Math.max(newCount, 1000), 5000);
+        // Ensure count stays within bounds (1000-2000)
+        const boundedCount = Math.min(Math.max(newCount, 1000), 2000);
         $('#players-count').text(boundedCount);
         
         // Toggle between increasing and decreasing
         isIncreasing = !isIncreasing;
     }
 
-    // Initialize with random number between 1000 and 5000
-    $('#players-count').text(getRandomNumber(1000, 5000));
+    // Initialize with random number between 1000 and 2000
+    $('#players-count').text(getRandomNumber(1000, 2000));
 
-    // Update count every 10 seconds
-    setInterval(updatePlayerCount, 10000);
+    // Update count every 20 seconds
+    setInterval(updatePlayerCount, 20000);
 
     let words = null;
     let currentWord = null;
