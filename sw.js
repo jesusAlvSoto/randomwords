@@ -1,8 +1,8 @@
-const CACHE_NAME = 'palabras-random-v0.1.1';
+const CACHE_NAME = 'palabras-random-v0.0.1';
 const urlsToCache = [
     './',
     './index.html',
-    './app.js',
+    './application.js',
     './checkversion.js',
     './manifest.json',
     './icons/icon-72x72.png',
@@ -12,7 +12,13 @@ const urlsToCache = [
     './icons/icon-152x152.png',
     './icons/icon-192x192.png',
     './icons/icon-384x384.png',
-    './icons/icon-512x512.png'
+    './icons/icon-512x512.png',
+    './icons/android-chrome-192x192.png',
+    './icons/android-chrome-512x512.png',
+    './icons/apple-touch-icon.png',
+    './icons/favicon.ico',
+    './icons/favicon-16x16.png',
+    './icons/favicon-32x32.png'
 ];
 
 // Helper function to check if URL is valid for caching
