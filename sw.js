@@ -1,8 +1,9 @@
-const CACHE_NAME = 'palabras-random-v1';
+const CACHE_NAME = 'palabras-random-v2';
 const urlsToCache = [
     './',
     './index.html',
     './app.js',
+    './checkversion.js',
     './manifest.json',
     './icons/icon-72x72.png',
     './icons/icon-96x96.png',
@@ -22,6 +23,8 @@ function isValidUrl(url) {
 // Install event
 self.addEventListener('install', (event) => {
     console.log('[ServiceWorker] Install');
+    // Force the waiting service worker to become the active service worker
+    self.skipWaiting();
     event.waitUntil(
         caches.open(CACHE_NAME)
             .then((cache) => {
@@ -53,7 +56,20 @@ self.addEventListener('fetch', (event) => {
         console.log('[ServiceWorker] Skipping invalid URL:', event.request.url);
         return;
     }
-
+    
+    // Network-Only strategy for version.json
+    // We never want to serve this from cache, or cache the result.
+    if (event.request.url.includes('version.json')) {
+        event.respondWith(
+            fetch(event.request).catch(() => {
+                // Optional: If offline, you can return a fallback or nothing
+                return new Response(JSON.stringify({ version: 'offline' }));
+            })
+        );
+        return;
+    }
+    
+    // Standard Cache-First strategy for everything else
     event.respondWith(
         caches.match(event.request)
             .then((response) => {
