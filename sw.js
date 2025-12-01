@@ -1,4 +1,4 @@
-const CACHE_NAME = 'palabras-random-v2';
+const CACHE_NAME = 'palabras-random-v0.1.1';
 const urlsToCache = [
     './',
     './index.html',
